@@ -1,0 +1,583 @@
+[
+  {
+    "date": "2020-03-02",
+    "references": [
+      "https://twitter.com/SaudiMOH/status/1234512116054401027"
+    ],
+    "cities": {
+      "Qatif": 1
+    },
+    "infections": 1,
+    "recoveries": 0,
+    "deaths": 0,
+    "total_recoveries": 0,
+    "total_infections": 1,
+    "total_deaths": 0
+  },
+  {
+    "date": "2020-03-03",
+    "references": [],
+    "cities": {},
+    "infections": 0,
+    "recoveries": 0,
+    "deaths": 0,
+    "total_recoveries": 0,
+    "total_infections": 1,
+    "total_deaths": 0
+  },
+  {
+    "date": "2020-03-04",
+    "references": [
+      "https://twitter.com/SaudiMOH/status/1235285484508717062"
+    ],
+    "cities": {
+      "Qatif": 1
+    },
+    "infections": 1,
+    "recoveries": 0,
+    "deaths": 0,
+    "total_recoveries": 0,
+    "total_infections": 2,
+    "total_deaths": 0
+  },
+  {
+    "date": "2020-03-05",
+    "references": [
+      "https://twitter.com/SaudiMOH/status/1235540367631581184"
+    ],
+    "cities": {
+      "Qatif": 3
+    },
+    "infections": 3,
+    "recoveries": 0,
+    "deaths": 0,
+    "total_recoveries": 0,
+    "total_infections": 5,
+    "total_deaths": 0
+  },
+  {
+    "date": "2020-03-06",
+    "references": [],
+    "cities": {},
+    "infections": 0,
+    "recoveries": 0,
+    "deaths": 0,
+    "total_recoveries": 0,
+    "total_infections": 5,
+    "total_deaths": 0
+  },
+  {
+    "date": "2020-03-07",
+    "references": [
+      "https://twitter.com/SaudiMOH/status/1236264824847446017"
+    ],
+    "cities": {
+      "Qatif": 2
+    },
+    "infections": 2,
+    "recoveries": 0,
+    "deaths": 0,
+    "total_recoveries": 0,
+    "total_infections": 7,
+    "total_deaths": 0
+  },
+  {
+    "date": "2020-03-08",
+    "references": [
+      "https://twitter.com/SaudiMOH/status/1236579629420380161"
+    ],
+    "cities": {
+      "Qatif": 3,
+      "Dammam": 1
+    },
+    "infections": 4,
+    "recoveries": 0,
+    "deaths": 0,
+    "total_recoveries": 0,
+    "total_infections": 11,
+    "total_deaths": 0
+  },
+  {
+    "date": "2020-03-09",
+    "references": [
+      "https://twitter.com/SaudiMOH/status/1236819768532971520"
+    ],
+    "cities": {
+      "Qatif": 3,
+      "Riyadh": 1
+    },
+    "infections": 4,
+    "recoveries": 0,
+    "deaths": 0,
+    "total_recoveries": 0,
+    "total_infections": 15,
+    "total_deaths": 0
+  },
+  {
+    "date": "2020-03-10",
+    "references": [
+      "https://twitter.com/SaudiMOH/status/1237122437315211265"
+    ],
+    "cities": {
+      "Dammam": 4,
+      "Makkah": 1
+    },
+    "infections": 5,
+    "recoveries": 0,
+    "deaths": 0,
+    "total_recoveries": 0,
+    "total_infections": 20,
+    "total_deaths": 0
+  },
+  {
+    "date": "2020-03-11",
+    "references": [
+      "https://twitter.com/SaudiMOH/status/1237501939266527233",
+      "https://twitter.com/SaudiMOH/status/1237786835373473792"
+    ],
+    "cities": {
+      "Jeddah": 1
+    },
+    "infections": 1,
+    "recoveries": 1,
+    "deaths": 0,
+    "total_recoveries": 1,
+    "total_infections": 21,
+    "total_deaths": 0
+  },
+  {
+    "date": "2020-03-12",
+    "references": [
+      "https://twitter.com/SaudiMOH/status/1237866867496071171"
+    ],
+    "cities": {
+      "Unknown": 23,
+      "Qatif": 1
+    },
+    "infections": 24,
+    "recoveries": 0,
+    "deaths": 0,
+    "total_recoveries": 1,
+    "total_infections": 45,
+    "total_deaths": 0
+  },
+  {
+    "date": "2020-03-13",
+    "references": [
+      "https://twitter.com/SaudiMOH/status/1238265969186832385",
+      "https://twitter.com/SaudiMOH/status/1238529823863115776"
+    ],
+    "cities": {
+      "Makkah": 26,
+      "Riyadh": 3,
+      "Qatif": 10,
+      "Alahsa": 1,
+      "Jeddah": 1
+    },
+    "infections": 41,
+    "recoveries": 0,
+    "deaths": 0,
+    "total_recoveries": 1,
+    "total_infections": 86,
+    "total_deaths": 0
+  },
+  {
+    "date": "2020-03-14",
+    "references": [
+      "https://twitter.com/SaudiMOH/status/1238859170658598912",
+      "https://twitter.com/SaudiMOH/status/1238919859645399046"
+    ],
+    "cities": {
+      "Riyadh": 12,
+      "Qatif": 3,
+      "Jeddah": 1,
+      "Alahsa": 1
+    },
+    "infections": 17,
+    "recoveries": 1,
+    "deaths": 0,
+    "total_recoveries": 2,
+    "total_infections": 103,
+    "total_deaths": 0
+  },
+  {
+    "date": "2020-03-15",
+    "references": [
+      "https://twitter.com/SaudiMOH/status/1239169423128346624",
+      "https://twitter.com/SaudiMOH/status/1239268884244582401"
+    ],
+    "cities": {
+      "Qatif": 7,
+      "Riyadh": 2,
+      "Jeddah": 2,
+      "Dhahran": 2,
+      "Khobar": 1,
+      "Dammam": 1
+    },
+    "infections": 15,
+    "recoveries": 1,
+    "deaths": 0,
+    "total_recoveries": 3,
+    "total_infections": 118,
+    "total_deaths": 0
+  },
+  {
+    "date": "2020-03-16",
+    "references": [
+      "https://twitter.com/SaudiMOH/status/1239548224198840320",
+      "https://twitter.com/SaudiMOH/status/1239623674707292160"
+    ],
+    "cities": {
+      "Jeddah": 5,
+      "Riyadh": 4,
+      "Makkah": 2,
+      "Jazan": 2,
+      "Qatif": 1,
+      "Dhahran": 1
+    },
+    "infections": 15,
+    "recoveries": 3,
+    "deaths": 0,
+    "total_recoveries": 6,
+    "total_infections": 133,
+    "total_deaths": 0
+  },
+  {
+    "date": "2020-03-17",
+    "references": [
+      "https://twitter.com/SaudiMOH/status/1239953541105471489"
+    ],
+    "cities": {
+      "Riyadh": 13,
+      "Qatif": 10,
+      "Dammam": 6,
+      "Dhahran": 3,
+      "Makkah": 3,
+      "Jeddah": 3
+    },
+    "infections": 38,
+    "recoveries": 0,
+    "deaths": 0,
+    "total_recoveries": 6,
+    "total_infections": 171,
+    "total_deaths": 0
+  },
+  {
+    "date": "2020-03-18",
+    "references": [
+      "https://twitter.com/SaudiMOH/status/1240328935507886080"
+    ],
+    "cities": {
+      "Dammam": 23,
+      "Riyadh": 19,
+      "Jeddah": 13,
+      "Makkah": 11,
+      "Aseer": 1
+    },
+    "infections": 67,
+    "recoveries": 0,
+    "deaths": 0,
+    "total_recoveries": 6,
+    "total_infections": 238,
+    "total_deaths": 0
+  },
+  {
+    "date": "2020-03-19",
+    "references": [
+      "https://twitter.com/SaudiMOH/status/1240624466075451393",
+      "https://twitter.com/SaudiMOH/status/1240689487463583744"
+    ],
+    "cities": {
+      "Riyadh": 21,
+      "Qatif": 4,
+      "Makkah": 3,
+      "Dammam": 3,
+      "Hufof": 2,
+      "Jeddah": 1,
+      "Dhahran": 1,
+      "Muhayil Aseer": 1
+    },
+    "infections": 36,
+    "recoveries": 2,
+    "deaths": 0,
+    "total_recoveries": 8,
+    "total_infections": 274,
+    "total_deaths": 0
+  },
+  {
+    "date": "2020-03-20",
+    "references": [
+      "https://twitter.com/SaudiMOH/status/1241056307144265729"
+    ],
+    "cities": {
+      "Riyadh": 49,
+      "Jeddah": 11,
+      "Makkah": 2,
+      "Medina": 1,
+      "Dammam": 1,
+      "Dhahran": 1,
+      "Qatif": 1,
+      "Al Baha": 1,
+      "Tabuk": 1,
+      "Bishah": 1,
+      "Hafr Albatin": 1
+    },
+    "infections": 70,
+    "recoveries": 0,
+    "deaths": 0,
+    "total_recoveries": 8,
+    "total_infections": 344,
+    "total_deaths": 0
+  },
+  {
+    "date": "2020-03-21",
+    "references": [
+      "https://twitter.com/SaudiMOH/status/1241401478339874828"
+    ],
+    "cities": {
+      "Riyadh": 36,
+      "Jeddah": 5,
+      "Makkah": 2,
+      "Alahsa": 2,
+      "Nairyah": 1,
+      "Dhahran": 1,
+      "Qatif": 1
+    },
+    "infections": 48,
+    "recoveries": 8,
+    "deaths": 0,
+    "total_recoveries": 16,
+    "total_infections": 392,
+    "total_deaths": 0
+  },
+  {
+    "date": "2020-03-22",
+    "references": [
+      "https://twitter.com/SaudiMOH/status/1241706443033784320/photo/1",
+      "https://twitter.com/SaudiMOH/status/1241719357627076609"
+    ],
+    "cities": {
+      "Makkah": 72,
+      "Riyadh": 34,
+      "Qatif": 4,
+      "Alahsa": 3,
+      "Khobar": 3,
+      "Dammam": 1,
+      "Dhahran": 1,
+      "Qassim": 1
+    },
+    "infections": 119,
+    "recoveries": 1,
+    "deaths": 0,
+    "total_recoveries": 17,
+    "total_infections": 511,
+    "total_deaths": 0
+  },
+  {
+    "date": "2020-03-23",
+    "references": [
+      "https://twitter.com/SaudiMOH/status/1242075464916701184/photo/1"
+    ],
+    "cities": {
+      "Riyadh": 18,
+      "Makkah": 12,
+      "Taif": 6,
+      "Bishah": 5,
+      "Dammam": 3,
+      "Qatif": 3,
+      "Jazan": 2,
+      "Najran": 1,
+      "Qunfuthah": 1
+    },
+    "infections": 51,
+    "recoveries": 2,
+    "deaths": 0,
+    "total_recoveries": 19,
+    "total_infections": 562,
+    "total_deaths": 0
+  },
+  {
+    "date": "2020-03-24",
+    "references": [
+      "https://twitter.com/SaudiMOH/status/1242434059722199040/photo/1"
+    ],
+    "cities": {
+      "Jeddah": 82,
+      "Riyadh": 69,
+      "Al Baha": 12,
+      "Bishah": 8,
+      "Najran": 8,
+      "Abha": 6,
+      "Qatif": 6,
+      "Dammam": 6,
+      "Jazan": 3,
+      "Khobar": 2,
+      "Dhahran": 2,
+      "Medina": 1
+    },
+    "infections": 205,
+    "recoveries": 9,
+    "deaths": 1,
+    "total_recoveries": 28,
+    "total_infections": 767,
+    "total_deaths": 1
+  },
+  {
+    "date": "2020-03-25",
+    "references": [
+      "https://twitter.com/SaudiMOH/status/1242797003266015233/photo/1"
+    ],
+    "cities": {
+      "Riyadh": 83,
+      "Dammam": 13,
+      "Jeddah": 10,
+      "Medina": 6,
+      "Qatif": 6,
+      "Khobar": 5,
+      "Najran": 4,
+      "Abha": 2,
+      "Arar": 2,
+      "Dhahran": 1,
+      "Jubail": 1
+    },
+    "infections": 133,
+    "recoveries": 1,
+    "deaths": 1,
+    "total_recoveries": 29,
+    "total_infections": 900,
+    "total_deaths": 2
+  },
+  {
+    "date": "2020-03-26",
+    "references": [
+      "https://twitter.com/SaudiMOH/status/1243157849372610560/photo/1"
+    ],
+    "cities": {
+      "Riyadh": 34,
+      "Makkah": 26,
+      "Taif": 18,
+      "Jeddah": 13,
+      "Dammam": 6,
+      "Qatif": 5,
+      "Medina": 3,
+      "Khobar": 2,
+      "Hufof": 2,
+      "Dhahran": 1,
+      "Qassim": 1,
+      "Khafji": 1
+    },
+    "infections": 112,
+    "recoveries": 4,
+    "deaths": 1,
+    "total_recoveries": 33,
+    "total_infections": 1012,
+    "total_deaths": 3
+  },
+  {
+    "date": "2020-03-27",
+    "references": [
+      "https://twitter.com/SaudiMOH/status/1243518477450842112/photo/1"
+    ],
+    "cities": {
+      "Riyadh": 46,
+      "Medina": 19,
+      "Qatif": 10,
+      "Jeddah": 7,
+      "Dammam": 4,
+      "Dhahran": 2,
+      "Qassim": 2,
+      "Hufof": 1,
+      "Khobar": 1
+    },
+    "infections": 92,
+    "recoveries": 2,
+    "deaths": 0,
+    "total_recoveries": 35,
+    "total_infections": 1104,
+    "total_deaths": 3
+  },
+  {
+    "date": "2020-03-28",
+    "references": [
+      "https://twitter.com/SaudiMOH/status/1243881406134202370/photo/1"
+    ],
+    "cities": {
+      "Riyadh": 41,
+      "Jeddah": 18,
+      "Makkah": 12,
+      "Qatif": 12,
+      "Medina": 6,
+      "Tabuk": 3,
+      "Khamis Mushait": 3,
+      "Abha": 1,
+      "Hufof": 1,
+      "Khobar": 1,
+      "Saihat": 1
+    },
+    "infections": 99,
+    "recoveries": 2,
+    "deaths": 1,
+    "total_recoveries": 37,
+    "total_infections": 1203,
+    "total_deaths": 4
+  },
+  {
+    "date": "2020-03-29",
+    "references": [
+      "https://twitter.com/SaudiMOH/status/1244242347334021120/photo/1"
+    ],
+    "cities": {
+      "Riyadh": 27,
+      "Dammam": 23,
+      "Medina": 14,
+      "Jeddah": 12,
+      "Makkah": 7,
+      "Khobar": 4,
+      "Dhahran": 2,
+      "Qatif": 1,
+      "Ras Tanura": 1,
+      "Saihat": 1,
+      "Hufof": 1,
+      "Taif": 1,
+      "Khamis Mushait": 1,
+      "Tabuk": 1
+    },
+    "infections": 96,
+    "recoveries": 29,
+    "deaths": 4,
+    "total_recoveries": 66,
+    "total_infections": 1299,
+    "total_deaths": 8
+  },
+  {
+    "date": "2020-03-30",
+    "references": [
+      "https://twitter.com/SaudiMOH/status/1244609485563461633/photo/1"
+    ],
+    "cities": {
+      "Makkah": 40,
+      "Dammam": 34,
+      "Riyadh": 22,
+      "Medina": 22,
+      "Jeddah": 9,
+      "Hufof": 6,
+      "Khobar": 6,
+      "Qatif": 5,
+      "Taif": 2,
+      "Yanbu": 1,
+      "Buraidah": 1,
+      "Ar Ras": 1,
+      "Khamis Mushait": 1,
+      "Dhahran": 1,
+      "Samtah": 1,
+      "Dawadmi": 1,
+      "Tabuk": 1
+    },
+    "infections": 154,
+    "recoveries": 49,
+    "deaths": 0,
+    "total_recoveries": 115,
+    "total_infections": 1453,
+    "total_deaths": 8
+  }
+]

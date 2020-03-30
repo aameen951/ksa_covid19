@@ -1,0 +1,488 @@
+/* cSpell:disable */
+
+const SaudiMOH = {
+  announcements:[
+    {
+      date: "2020-03-30 15:56+03:00",
+      references: ["https://twitter.com/SaudiMOH/status/1244609485563461633/photo/1"],
+      recoveries: [
+        {number:49, city:"Unknown"},
+      ],
+      deaths: [],
+      infections: [
+        {number: 40, city: "Makkah"},
+        {number: 34, city: "Dammam"},
+        {number: 22, city: "Riyadh"},
+        {number: 22, city: "Medina"},
+        {number: 9, city: "Jeddah"},
+        {number: 6, city: "Hufof"},
+        {number: 6, city: "Khobar"},
+        {number: 5, city: "Qatif"},
+        {number: 2, city: "Taif"},
+        {number: 1, city: "Yanbu"},
+        {number: 1, city: "Buraidah"},
+        {number: 1, city: "Ar Ras"},
+        {number: 1, city: "Khamis Mushait"},
+        {number: 1, city: "Dhahran"},
+        {number: 1, city: "Samtah"},
+        {number: 1, city: "Dawadmi"},
+        {number: 1, city: "Tabuk"},
+      ],
+    },
+    {
+      date: "2020-03-29 15:37+03:00",
+      references: ["https://twitter.com/SaudiMOH/status/1244242347334021120/photo/1"],
+      recoveries: [
+        {number:29, city:"Unknown"},
+      ],
+      deaths: [
+        {number:4, city:"Unknown"},
+      ],
+      infections: [
+        {number: 23, city: "Dammam"},
+        {number: 27, city: "Riyadh"},
+        {number: 14, city: "Medina"},
+        {number: 12, city: "Jeddah"},
+        {number: 7, city: "Makkah"},
+        {number: 4, city: "Khobar"},
+        {number: 2, city: "Dhahran"},
+        {number: 1, city: "Qatif"},
+        {number: 1, city: "Ras Tanura"},
+        {number: 1, city: "Saihat"},
+        {number: 1, city: "Hufof"},
+        {number: 1, city: "Taif"},
+        {number: 1, city: "Khamis Mushait"},
+        {number: 1, city: "Tabuk"},
+      ],
+    },
+    {
+      date: "2020-03-28 15:43+03:00",
+      references: ["https://twitter.com/SaudiMOH/status/1243881406134202370/photo/1"],
+      recoveries: [
+        {number:2, city:"Unknown"},
+      ],
+      deaths: [
+        {number:1, city:"Unknown"},
+      ],
+      infections: [
+        {number: 41, city: "Riyadh"},
+        {number: 18, city: "Jeddah"},
+        {number: 12, city: "Makkah"},
+        {number: 12, city: "Qatif"},
+        {number: 6, city: "Medina"},
+        {number: 3, city: "Tabuk"},
+        {number: 3, city: "Khamis Mushait"},
+        {number: 1, city: "Abha"},
+        {number: 1, city: "Hufof"},
+        {number: 1, city: "Khobar"},
+        {number: 1, city: "Saihat"},
+      ],
+    },
+    {
+      date: "2020-03-27 15:41+03:00",
+      references: ["https://twitter.com/SaudiMOH/status/1243518477450842112/photo/1"],
+      recoveries: [
+        {number:2, city:"Unknown"},
+      ],
+      deaths: [],
+      infections: [
+        {number: 46, city: "Riyadh"},
+        {number: 19, city: "Medina"},
+        {number: 10, city: "Qatif"},
+        {number: 7, city: "Jeddah"},
+        {number: 4, city: "Dammam"},
+        {number: 2, city: "Dhahran"},
+        {number: 2, city: "Qassim"},
+        {number: 1, city: "Hufof"},
+        {number: 1, city: "Khobar"},
+      ],
+    },
+    {
+      date: "2020-03-26 15:48+03:00",
+      references: ["https://twitter.com/SaudiMOH/status/1243157849372610560/photo/1"],
+      recoveries: [
+        {number:4, city:"Unknown"},
+      ],
+      deaths: [
+        {number:1, city:"Unknown"},
+      ],
+      infections: [
+        {number: 34, city: "Riyadh"},
+        {number: 26, city: "Makkah"},
+        {number: 18, city: "Taif"},
+        {number: 13, city: "Jeddah"},
+        {number: 6, city: "Dammam"},
+        {number: 5, city: "Qatif"},
+        {number: 3, city: "Medina"},
+        {number: 2, city: "Khobar"},
+        {number: 2, city: "Hufof"},
+        {number: 1, city: "Dhahran"},
+        {number: 1, city: "Qassim"},
+        {number: 1, city: "Khafji"},
+      ],
+    },
+    {
+      date: "2020-03-25 15:54+03:00",
+      references: ["https://twitter.com/SaudiMOH/status/1242797003266015233/photo/1"],
+      recoveries: [
+        {number:1, city:"Unknown"},
+      ],
+      deaths: [
+        {number:1, city:"Unknown"},
+      ],
+      infections: [
+        {number: 83, city: "Riyadh"},
+        {number: 13, city: "Dammam"},
+        {number: 10, city: "Jeddah"},
+        {number: 6, city: "Medina"},
+        {number: 6, city: "Qatif"},
+        {number: 5, city: "Khobar"},
+        {number: 4, city: "Najran"},
+        {number: 2, city: "Abha"},
+        {number: 2, city: "Arar"},
+        {number: 1, city: "Dhahran"},
+        {number: 1, city: "Jubail"},
+      ],
+    },
+    {
+      date: "2020-03-24 15:52+03:00",
+      references: ["https://twitter.com/SaudiMOH/status/1242434059722199040/photo/1"],
+      recoveries: [
+        {number:9, city:"Unknown"},
+      ],
+      deaths: [
+        {number:1, city:"Unknown"},
+      ],
+      infections: [
+        {number: 82, city: "Jeddah"},
+        {number: 69, city: "Riyadh"},
+        {number: 12, city: "Al Baha"},
+        {number: 8, city: "Bishah"},
+        {number: 8, city: "Najran"},
+        {number: 6, city: "Abha"},
+        {number: 6, city: "Qatif"},
+        {number: 6, city: "Dammam"},
+        {number: 3, city: "Jazan"},
+        {number: 2, city: "Khobar"},
+        {number: 2, city: "Dhahran"},
+        {number: 1, city: "Medina"},
+      ],
+    },
+    {
+      date: "2020-03-23 16:07+03:00",
+      references: ["https://twitter.com/SaudiMOH/status/1242075464916701184/photo/1"],
+      recoveries: [
+        {number:2, city:"Unknown"},
+      ],
+      deaths: [],
+      infections: [
+        {number: 18, city: "Riyadh"},
+        {number: 12, city: "Makkah"},
+        {number: 6, city: "Taif"},
+        {number: 5, city: "Bishah"},
+        {number: 3, city: "Dammam"},
+        {number: 3, city: "Qatif"},
+        {number: 2, city: "Jazan"},
+        {number: 1, city: "Najran"},
+        {number: 1, city: "Qunfuthah"},
+      ],
+    },
+    {
+      date: "2020-03-22 15:41+03:00",
+      references: [
+        "https://twitter.com/SaudiMOH/status/1241706443033784320/photo/1",
+        "https://twitter.com/SaudiMOH/status/1241719357627076609",
+      ],
+      recoveries: [
+        {number:1, city:"Unknown"},
+      ],
+      deaths: [],
+      infections: [
+        {number:72, city: "Makkah"},
+        {number:34, city: "Riyadh"},
+        {number:4, city: "Qatif"},
+        {number:3, city: "Alahsa"},
+        {number:3, city: "Khobar"},
+        {number:1, city: "Dammam"},
+        {number:1, city: "Dhahran"},
+        {number:1, city: "Qassim"},
+      ],
+    },
+    {
+      date: "2020-03-21 19:29+03:00",
+      references: ["https://twitter.com/SaudiMOH/status/1241401478339874828"],
+      recoveries: [
+        {number:8, city:"Unknown"},
+      ],
+      deaths: [],
+      infections: [
+        {number:36, city: "Riyadh"},
+        {number:5, city: "Jeddah"},
+        {number:2, city: "Makkah"},
+        {number:2, city: "Alahsa"},
+        {number:1, city: "Nairyah"},
+        {number:1, city: "Dhahran"},
+        {number:1, city: "Qatif"},
+      ],
+    },
+    {
+      date: "2020-03-20 20:37+03:00",
+      references: ["https://twitter.com/SaudiMOH/status/1241056307144265729"],
+      recoveries: [],
+      deaths: [],
+      infections: [
+        {number:49, city: "Riyadh"},
+        {number:11, city: "Jeddah"},
+        {number:2, city: "Makkah"},
+        {number:1, city: "Medina"},
+        {number:1, city: "Dammam"},
+        {number:1, city: "Dhahran"},
+        {number:1, city: "Qatif"},
+        {number:1, city: "Al Baha"},
+        {number:1, city: "Tabuk"},
+        {number:1, city: "Bishah"},
+        {number:1, city: "Hafr Albatin"},
+      ],
+    },
+    {
+      date: "2020-03-19 20:19+03:00",
+      references: ["https://twitter.com/SaudiMOH/status/1240689487463583744"],
+      recoveries: [],
+      deaths: [],
+      infections: [
+        {number:21, city: "Riyadh"},
+        {number:4, city: "Qatif"},
+        {number:3, city: "Makkah"},
+        {number:3, city: "Dammam"},
+        {number:2, city: "Hufof"},
+        {number:1, city: "Jeddah"},
+        {number:1, city: "Dhahran"},
+        {number:1, city: "Muhayil Aseer"},
+      ],
+    },
+    {
+      date: "2020-03-19 16:01+03:00",
+      references: ["https://twitter.com/SaudiMOH/status/1240624466075451393"],
+      recoveries: [
+        {number:2, city:"Unknown"},
+      ],
+      deaths: [],
+      infections: [],
+    },
+    {
+      date: "2020-03-18 20:27+03:00",
+      references: ["https://twitter.com/SaudiMOH/status/1240328935507886080"],
+      recoveries: [],
+      deaths: [],
+      infections: [
+        {number:19, city: "Riyadh"},
+        {number:23, city: "Dammam"},//TODO(ameen): Verify
+        {number:13, city: "Jeddah"},
+        {number:11, city: "Makkah"},
+        {number:1, city: "Aseer"},
+      ],
+    },
+    {
+      date: "2020-03-17 19:35+03:00",
+      references: ["https://twitter.com/SaudiMOH/status/1239953541105471489"],
+      recoveries: [],
+      deaths: [],
+      infections: [
+        {number:6, city: "Dammam"},//TODO(ameen): Verify
+        {number:13, city: "Riyadh"},
+        {number:3, city: "Dhahran"},
+        {number:10, city: "Qatif"},
+        {number:3, city: "Makkah"},
+        {number:3, city: "Jeddah"},
+      ],
+    },
+    {
+      date: "2020-03-16 21:44+03:00",
+      references: ["https://twitter.com/SaudiMOH/status/1239623674707292160"],
+      recoveries: [],
+      deaths: [],
+      infections: [
+        {number:5, city: "Jeddah"},
+        {number:4, city: "Riyadh"},
+        {number:2, city: "Makkah"},
+        {number:2, city: "Jazan"},
+        {number:1, city: "Qatif"},
+        {number:1, city: "Dhahran"},
+      ],
+    },
+    {
+      date: "2020-03-16 16:45+03:00",
+      references: ["https://twitter.com/SaudiMOH/status/1239548224198840320"],
+      recoveries: [
+        {number:3, city:"Unknown"},
+      ],
+      deaths: [],
+      infections: [],
+    },
+    {
+      date: "2020-03-15 22:15+03:00",
+      references: ["https://twitter.com/SaudiMOH/status/1239268884244582401"],
+      recoveries: [],
+      deaths: [],
+      infections: [
+        {number:7, city: "Qatif"},
+        {number:2, city: "Riyadh"},
+        {number:2, city: "Jeddah"},
+        {number:2, city: "Dhahran"},
+        {number:1, city: "Khobar"},
+        {number:1, city: "Dammam"},
+      ],
+    },
+    {
+      date: "2020-03-15 15:39+03:00",
+      references: ["https://twitter.com/SaudiMOH/status/1239169423128346624"],
+      recoveries: [
+        {number:1, city:"Unknown"},
+      ],
+      deaths: [],
+      infections: [],
+    },
+    {
+      date: "2020-03-14 23:08+03:00",
+      references: ["https://twitter.com/SaudiMOH/status/1238919859645399046"],
+      recoveries: [
+        {number:1, city:"Unknown"},
+      ],
+      deaths: [],
+      infections: [],
+    },
+    {
+      date: "2020-03-14 19:06+03:00",
+      references: ["https://twitter.com/SaudiMOH/status/1238859170658598912"],
+      recoveries: [],
+      deaths: [],
+      infections: [
+        {number:12, city: "Riyadh"},
+        {number:1, city: "Jeddah"},
+        {number:3, city: "Qatif"},
+        {number:1, city: "Alahsa"},
+      ],
+    },
+    {
+      date: "2020-03-13 21:18+03:00",
+      references: ["https://twitter.com/SaudiMOH/status/1238529823863115776"],
+      recoveries: [],
+      deaths: [],
+      infections: [
+        {number:15, city: "Makkah"},
+        {number:8, city: "Qatif"},
+        {number:1, city: "Riyadh"},
+      ],
+    },
+    {
+      date: "2020-03-13 03:49+03:00",
+      references: ["https://twitter.com/SaudiMOH/status/1238265969186832385"],
+      recoveries: [],
+      deaths: [],
+      infections: [
+        {number:11, city: "Makkah"},
+        {number:2, city: "Riyadh"},
+        {number:2, city: "Qatif"},
+        {number:1, city: "Alahsa"},
+        {number:1, city: "Jeddah"},
+      ],
+    },
+    {
+      date: "2020-03-12 13:23+03:00",
+      references: ["https://twitter.com/SaudiMOH/status/1237866867496071171"],
+      recoveries: [],
+      deaths: [],
+      infections: [
+        {number:21, city: "Unknown"}, // TODO(ameen): Validate
+        {number:2, city: "Unknown"}, // TODO(ameen): Validate
+        {number:1, city: "Qatif"},
+      ],
+    },
+    {
+      date: "2020-03-11 20:05+03:00",
+      references: ["https://twitter.com/SaudiMOH/status/1237786835373473792"],
+      recoveries: [
+        {number:1, city:"Unknown"},
+      ],
+      deaths: [],
+      infections: [],
+    },
+    {
+      date: "2020-03-11 01:13+03:00",
+      references: ["https://twitter.com/SaudiMOH/status/1237501939266527233"],
+      recoveries: [],
+      deaths: [],
+      infections: [
+        {number:1, city: "Jeddah"}, // TODO(ameen): Validate
+      ],
+    },
+    {
+      date: "2020-03-10 00:05+03:00",
+      references: ["https://twitter.com/SaudiMOH/status/1237122437315211265"],
+      recoveries: [],
+      deaths: [],
+      infections: [
+        {number:4, city: "Dammam"}, //TODO(ameen): Verify
+        {number:1, city: "Makkah"},
+      ],
+    },
+    {
+      date: "2020-03-09 04:03+03:00",
+      references: ["https://twitter.com/SaudiMOH/status/1236819768532971520"],
+      recoveries: [],
+      deaths: [],
+      infections: [
+        {number:3, city: "Qatif"},
+        {number:1, city: "Riyadh"},
+      ],
+    },
+    {
+      date: "2020-03-08 12:08+03:00",
+      references: ["https://twitter.com/SaudiMOH/status/1236579629420380161"],
+      recoveries: [],
+      deaths: [],
+      infections: [
+        {number:3, city: "Qatif"},
+        {number:1, city: "Dammam"}, //TODO(ameen): Verify
+      ],
+    },
+    {
+      date: "2020-03-07 15:17+03:00",
+      references: ["https://twitter.com/SaudiMOH/status/1236264824847446017"],
+      recoveries: [],
+      deaths: [],
+      infections: [
+        {number:2, city: "Qatif"},
+      ],
+    },
+    {
+      date: "2020-03-05 15:19+03:00",
+      references: ["https://twitter.com/SaudiMOH/status/1235540367631581184"],
+      recoveries: [],
+      deaths: [],
+      infections: [
+        {number:3, city: "Qatif"},
+      ],
+    },
+    {
+      date: "2020-03-04 22:26+03:00",
+      references: ["https://twitter.com/SaudiMOH/status/1235285484508717062"],
+      recoveries: [],
+      deaths: [],
+      infections: [
+        {number:1, city: "Qatif"},
+      ],
+    },
+    {
+      date: "2020-03-02 19:13+03:00",
+      references: ["https://twitter.com/SaudiMOH/status/1234512116054401027"],
+      recoveries: [],
+      deaths: [],
+      infections: [
+        {number:1, city: "Qatif"},
+      ],
+    },
+  ],
+};
+
+module.exports = SaudiMOH;
