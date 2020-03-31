@@ -3,6 +3,34 @@
 const SaudiMOH = {
   announcements:[
     {
+      date: "2020-03-31 15:50+03:00",
+      references: ["https://twitter.com/SaudiMOH/status/1244970206654533632/photo/1"],
+      recoveries: [
+        {number:50, city:"Unknown"},
+      ],
+      deaths: [
+        {number:2, city:"Medina"},
+      ],
+      infections: [
+        {number: 33, city: "Riyadh"},
+        {number: 29, city: "Jeddah"},
+        {number: 20, city: "Makkah"},
+        {number: 7, city: "Qatif"},
+        {number: 4, city: "Khobar"},
+        {number: 3, city: "Dammam"},
+        {number: 3, city: "Medina"},
+        {number: 2, city: "Hufof"},
+        {number: 2, city: "Dhahran"},
+        {number: 2, city: "Jazan"},
+        {number: 1, city: "Al Badaea"},
+        {number: 1, city: "Abha"},
+        {number: 1, city: "Khamis Mushait"},
+        {number: 1, city: "Ras Tanura"},
+        {number: 1, city: "Khafji"},
+      ],
+    },
+
+    {
       date: "2020-03-30 15:56+03:00",
       references: ["https://twitter.com/SaudiMOH/status/1244609485563461633/photo/1"],
       recoveries: [

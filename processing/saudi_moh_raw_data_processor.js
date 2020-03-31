@@ -6,6 +6,7 @@ const known_cities = {
   "Arar": {},
   "Al Baha": {},
   "Ar Ras": {},
+  "Al Badaea": {},
   "Bishah": {},
   "Buraidah": {},
   "Dhahran": {},
