@@ -1213,6 +1213,62 @@
           "number": 1
         }
       ]
+    },
+    {
+      "date": "2020-04-01T12:43:00.000Z",
+      "references": [
+        "https://twitter.com/SaudiMOH/status/1245330970649165824/photo/1"
+      ],
+      "recoveries": [
+        {
+          "city": "Unknown",
+          "number": 99
+        }
+      ],
+      "deaths": [
+        {
+          "city": "Unknown",
+          "number": 6
+        }
+      ],
+      "infections": [
+        {
+          "city": "Medina",
+          "number": 78
+        },
+        {
+          "city": "Makkah",
+          "number": 55
+        },
+        {
+          "city": "Riyadh",
+          "number": 7
+        },
+        {
+          "city": "Qatif",
+          "number": 6
+        },
+        {
+          "city": "Jeddah",
+          "number": 3
+        },
+        {
+          "city": "Hufof",
+          "number": 3
+        },
+        {
+          "city": "Tabuk",
+          "number": 2
+        },
+        {
+          "city": "Taif",
+          "number": 2
+        },
+        {
+          "city": "Al Henakiyah",
+          "number": 1
+        }
+      ]
     }
   ]
 }

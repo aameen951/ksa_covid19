@@ -7,6 +7,7 @@ const known_cities = {
   "Al Baha": {},
   "Ar Ras": {},
   "Al Badaea": {},
+  "Al Henakiyah": {},
   "Bishah": {},
   "Buraidah": {},
   "Dhahran": {},

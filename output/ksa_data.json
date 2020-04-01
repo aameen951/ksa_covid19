@@ -608,5 +608,28 @@
     "total_recoveries": 165,
     "total_infections": 1563,
     "total_deaths": 10
+  },
+  {
+    "date": "2020-04-01",
+    "references": [
+      "https://twitter.com/SaudiMOH/status/1245330970649165824/photo/1"
+    ],
+    "cities": {
+      "Medina": 78,
+      "Makkah": 55,
+      "Riyadh": 7,
+      "Qatif": 6,
+      "Jeddah": 3,
+      "Hufof": 3,
+      "Tabuk": 2,
+      "Taif": 2,
+      "Al Henakiyah": 1
+    },
+    "infections": 157,
+    "recoveries": 99,
+    "deaths": 6,
+    "total_recoveries": 264,
+    "total_infections": 1720,
+    "total_deaths": 16
   }
 ]
