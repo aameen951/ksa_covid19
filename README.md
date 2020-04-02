@@ -1,10 +1,9 @@
 
-# KSA COVID-19 DATA
+# COVID-19 Data in KSA
 
-This repository provides the data of COVID-19 in Saudi Arabia in JSON format. 
+This repository provides the data of confirmed cases of COVID-19 in Saudi Arabia in JSON format. 
 
-The data contains total number of infections, recoveries, and deaths day by day as announced by Ministry of Health (MOH) in Saudi Arabia.
-It also contains the number of infections for each city on each day.
+The data contains the number of infections, recoveries, and deaths in each city day by day as announced by Ministry of Health (MOH) in Saudi Arabia.
 
 ## Getting The Data
 
@@ -21,7 +20,34 @@ Check Data Source section below for the frequency of these updates.
 
 ## Data Format
 
+* ###  `output\ksa_data_v2.json`
+
+  All timestamps in this file are represented by the number of milliseconds since January 1, 1970 00:00:00 UTC.
+
+  The `file` is an object that has the following properties:
+    - `last_update`: timestamp of the latest cases update published by MOH.
+    - `infections`: total number of infections from start to `last_update`.
+    - `recoveries`: total number of recoveries from start to `last_update`.
+    - `deaths`: total number of deaths from start to `last_update`.
+    - `cities`: is an object where each key is the name of the city in english and the value is a `city` object.
+
+  Each `city` is an object that has the following properties:
+    - `name_ar`: the name of the city in Arabic.
+    - `name_eng`: the name of the city in English.
+    - `infections`: the total number of infections in this city from start to `last_update`.
+    - `recoveries`: the total number of recoveries in this city from start to `last_update`.
+    - `deaths`: the total number of deaths in this city from start to `last_update`.
+    - `records`: an array of `record`s.
+
+  Each `record` is an array of 4 entries which represent an update from MOH:
+    - `[0]`: the timestamp in with this record was published by MOH.
+    - `[1]`: the number of infections.
+    - `[2]`: the number of recoveries.
+    - `[3]`: the number of deaths.
+
 * ###  `output\saudi_moh_data.json`
+
+  **Deprecated: this format will no longer be updated.**
 
   This file contains all the announcements by MOH.
 
@@ -42,6 +68,8 @@ Check Data Source section below for the frequency of these updates.
 
 * ###  `output\ksa_data.json`
 
+  **Deprecated: this format will no longer be updated**
+
   This file contains more usable data that is produced by processing `output\saudi_moh_data.json` file.
   This file has a single record per day since the first reported case to the last reported.
 
@@ -61,13 +89,17 @@ Check Data Source section below for the frequency of these updates.
 
 ## Data Source
 
-This data is collected manually from the publications of Ministry of Heath in Saudi Arabia.
-MOI publishes a daily report on COVID-19 cases in each city on their Twitter account @SaudiMOH.
+  - `output\ksa_data_v2.json`
 
-MOH publishes a daily report on their Twitter account @SaudiMOH at about ~03:40 PM (+03 timezone). 
-It takes me some time to manually extract this data from the report and update the data files then commit and push the changes.
+    This data is collected automatically from http://covid19.moh.gov.sa/ and pushed to GitHub on a daily basis.
+  
+  - `output\ksa_data.json` and `output\ksa_data.json`.
 
-If you know/have a better way to get this data from MOH then let me know (by opening an issue).
+    This data is collected manually from the publications of Ministry of Heath in Saudi Arabia.
+    MOI publishes a daily report on COVID-19 cases in each city on their Twitter account @SaudiMOH.
+
+    MOH publishes a daily report on their Twitter account @SaudiMOH at about ~03:40 PM (+03 timezone). 
+    It takes me some time to manually extract this data from the report and update the data files then commit and push the changes.
 
 ## Contribution
 
