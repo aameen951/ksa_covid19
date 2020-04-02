@@ -1269,6 +1269,82 @@
           "number": 1
         }
       ]
+    },
+    {
+      "date": "2020-04-02T12:55:00.000Z",
+      "references": [
+        "https://twitter.com/SaudiMOH/status/1245696309111250946/photo/1"
+      ],
+      "recoveries": [
+        {
+          "city": "Unknown",
+          "number": 64
+        }
+      ],
+      "deaths": [
+        {
+          "city": "Unknown",
+          "number": 5
+        }
+      ],
+      "infections": [
+        {
+          "city": "Makkah",
+          "number": 48
+        },
+        {
+          "city": "Medina",
+          "number": 46
+        },
+        {
+          "city": "Jeddah",
+          "number": 30
+        },
+        {
+          "city": "Khafji",
+          "number": 9
+        },
+        {
+          "city": "Riyadh",
+          "number": 7
+        },
+        {
+          "city": "Khamis Mushait",
+          "number": 6
+        },
+        {
+          "city": "Qatif",
+          "number": 5
+        },
+        {
+          "city": "Dhahran",
+          "number": 4
+        },
+        {
+          "city": "Dammam",
+          "number": 4
+        },
+        {
+          "city": "Abha",
+          "number": 2
+        },
+        {
+          "city": "Khobar",
+          "number": 1
+        },
+        {
+          "city": "Ras Tanura",
+          "number": 1
+        },
+        {
+          "city": "Ahad Rafidah",
+          "number": 1
+        },
+        {
+          "city": "Bishah",
+          "number": 1
+        }
+      ]
     }
   ]
 }

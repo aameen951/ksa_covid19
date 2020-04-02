@@ -631,5 +631,33 @@
     "total_recoveries": 264,
     "total_infections": 1720,
     "total_deaths": 16
+  },
+  {
+    "date": "2020-04-02",
+    "references": [
+      "https://twitter.com/SaudiMOH/status/1245696309111250946/photo/1"
+    ],
+    "cities": {
+      "Makkah": 48,
+      "Medina": 46,
+      "Jeddah": 30,
+      "Khafji": 9,
+      "Riyadh": 7,
+      "Khamis Mushait": 6,
+      "Qatif": 5,
+      "Dhahran": 4,
+      "Dammam": 4,
+      "Abha": 2,
+      "Khobar": 1,
+      "Ras Tanura": 1,
+      "Ahad Rafidah": 1,
+      "Bishah": 1
+    },
+    "infections": 165,
+    "recoveries": 64,
+    "deaths": 5,
+    "total_recoveries": 328,
+    "total_infections": 1885,
+    "total_deaths": 21
   }
 ]
