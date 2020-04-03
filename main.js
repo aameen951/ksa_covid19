@@ -10,6 +10,8 @@ function usage(){
   console.log();
   console.log("Commands:");
   console.log("   gen      Generate data from raw data.");
+  console.log("   fetch    Download data from ArcGIS and generate ksa_data_v2.json.");
+  console.log("   show     Download data from ArcGIS and show it.");
   console.log();
 }
 
@@ -34,6 +36,30 @@ async function main(args){
     let data = await arcgis_download_data();
 
     gen_output_file('ksa_data_v2', gen_ksa_data_v2(data));
+  }
+  else if(args[0] === 'show')
+  {
+    let raw_data = await arcgis_download_data();
+    let data = gen_ksa_data_v2(raw_data);
+    const entries = [
+      ...Object.entries(data.cities).map(x => x[1]).sort((a, b) => a.infections-b.infections),
+      {
+        name_eng: "TOTAL",
+        infections: data.infections,
+        recoveries: data.recoveries,
+        deaths: data.deaths,
+      }
+    ];
+    for(let city of entries)
+    {
+      console.log(city.name_eng.padEnd(20, " "), [
+        ["infections", `${city.infections}`, "\x1b[33m"],
+        ["recoveries", `${city.recoveries}`, "\x1b[32m"],
+        ["deaths", `${city.deaths}`, "\x1b[31m"],
+      ].map(x => `${x[0]}: ${x[2]}${x[1].padStart(5, " ")}\x1b[0m`).join(", "));
+    }
+    console.log(`Data Source: \x1b[34m${data.data_source}\x1b[0m`);
+    console.log(`Last Update: \x1b[32m${new Date(data.last_update).toLocaleString()}\x1b[0m`);
   }
   else
   {
