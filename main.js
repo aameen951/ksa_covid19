@@ -91,7 +91,16 @@ async function do_commit(){
   console.log((await exec_process(`git push`)).stdout);
   console.log("------------------------------------\n");
 }
-
+async function periodic_check()
+{
+  console.log("Fetching data...");
+  await main(['fetch']);
+  const data_changed = await check_if_data_changed();
+  if(data_changed)
+  {
+    do_commit();
+  }
+}
 async function main(args){
   const command = args[0];
   const params = args.slice(1);
@@ -119,19 +128,16 @@ async function main(args){
       await main(['fetch', '--show']);
     }break;
     case 'watch':{
-      await new Promise((resolve, reject) => {
+      await new Promise(async (resolve, reject) => {
+
+        await periodic_check();
+
         setInterval(async () => {
 
-          console.log("Fetching data...");
-          await main(['fetch']);
-          const data_changed = await check_if_data_changed();
-          if(data_changed)
-          {
-            do_commit();
-          }
+          await periodic_check();
       
         }, 10 * 60 * 1000);
-        resolve();
+
       });
     }break;
     default: {
