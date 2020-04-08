@@ -2,6 +2,7 @@ const fs = require('fs');
 const { get_saudi_moh_data } = require("./processing/saudi_moh_raw_data_processor");
 const { gen_ksa_data, gen_ksa_data_v2 } = require("./gen_ksa_data");
 const { arcgis_download_data } = require("./processing/arcgis_downloader");
+const child_process = require("child_process");
 
 function usage(){
   console.log();
@@ -24,12 +25,6 @@ async function gen_output_file(file_name, data){
 async function read_file(file_name){
   const result = fs.readFileSync(`./output/${file_name}.json`, "utf8");
   return JSON.parse(result);
-}
-
-async function fetch_data()
-{
-  let data = await arcgis_download_data();
-  await gen_output_file('ksa_data_v2', gen_ksa_data_v2(data));
 }
 
 async function show_data()
@@ -57,32 +52,91 @@ async function show_data()
   console.log(`Last Update: \x1b[32m${new Date(data.last_update).toLocaleString()}\x1b[0m`);
 }
 
+async function exec_process(cmd)
+{
+  const output = await new Promise((resolve, reject) => {
+    child_process.exec(cmd, (err, stdout, stderr) => {
+      if(err)reject(err);
+      resolve({stdout, stderr});
+    });
+  });
+  return output;
+}
+async function check_if_data_changed()
+{
+  const output = await exec_process("git status --porcelain=1");
+  const status_lines = output.stdout.split("\n");
+  for(let line of status_lines)
+  {
+    const filename = line.slice(3);
+    if(filename === 'output/ksa_data_v2.json')
+    {
+      return true;
+    }
+  }
+  return false;
+}
+async function do_commit(){
+  const data = await read_file("ksa_data_v2");
+  const last_update = new Date(data.last_update).toLocaleString();
+  const now = new Date().toLocaleString();
+
+  console.log("\n------------------------------------");
+  console.log(` *     \x1b[33mDetected data change!\x1b[0m      *`);
+  console.log("\n------------------------------------");
+  console.log("Now:       \x1b[34m", now, "\x1b[0m");
+  console.log("NewUpdate: \x1b[32m", last_update, "\x1b[0m");
+  console.log((await exec_process("git add output/ksa_data_v2.json")).stdout);
+  console.log((await exec_process(`git commit -m "Update at ${last_update}."`)).stdout);
+  console.log((await exec_process(`git push`)).stdout);
+  console.log("------------------------------------\n");
+}
+
 async function main(args){
   const command = args[0];
   const params = args.slice(1);
   
-  if(args[0] === 'gen')
+  switch(command)
   {
-    const data = get_saudi_moh_data();
+    case 'gen':{
+      const data = get_saudi_moh_data();
 
-    gen_output_file('saudi_moh_data', data);
+      gen_output_file('saudi_moh_data', data);
+  
+      gen_output_file('ksa_data', gen_ksa_data(data));
+    }break;
+    case 'fetch':{
+      let data = await arcgis_download_data();
+      data = gen_ksa_data_v2(data);
+      await gen_output_file('ksa_data_v2', data);
 
-    gen_output_file('ksa_data', gen_ksa_data(data));
-  }
-  else if(args[0] === 'fetch')
-  {
-    await fetch_data();
+      if(params.find(x => x == '--show'))
+      {
+        await show_data(data);
+      }
+    }break;
+    case 'show':{
+      await main(['fetch', '--show']);
+    }break;
+    case 'watch':{
+      await new Promise((resolve, reject) => {
+        setInterval(async () => {
 
-    if(params.find(x => x == '--show'))await show_data();
-  }
-  else if(args[0] === 'show')
-  {
-    await fetch_data();
-    await show_data();
-  }
-  else
-  {
-    usage();
+          console.log("Fetching data...");
+          await main(['fetch']);
+          const data_changed = await check_if_data_changed();
+          if(data_changed)
+          {
+            do_commit();
+          }
+      
+        }, 10 * 60 * 1000);
+        resolve();
+      });
+    }break;
+    default: {
+      usage();
+    }
   }
 }
 
