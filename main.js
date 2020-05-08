@@ -20,7 +20,7 @@ async function gen_output_file(file_name, data){
   try{
     fs.mkdirSync("./output");
   }catch(e){}
-  fs.writeFileSync(`./output/${file_name}.json`, JSON.stringify(data, null, 0), "utf8");
+  fs.writeFileSync(`./output/${file_name}.json`, JSON.stringify(data, null, 2), "utf8");
 }
 async function read_file(file_name){
   const result = fs.readFileSync(`./output/${file_name}.json`, "utf8");
@@ -50,6 +50,66 @@ async function show_data()
   }
   console.log(`Data Source: \x1b[34m${data.data_source}\x1b[0m`);
   console.log(`Last Update: \x1b[32m${new Date(data.last_update).toLocaleString()}\x1b[0m`);
+}
+async function show_day()
+{
+  const data = await read_file('ksa_data_v2');
+  const last_update = new Date(data.last_update);
+  const from = new Date(data.last_update);
+  from.setHours(from.getHours()-12);
+  
+  const cities = new Map();
+  const total = {
+    name: "TOTAL",
+    infections: 0,
+    recoveries: 0,
+    deaths: 0,
+  };
+  Object.entries(data.cities).forEach(([k, v]) => {
+    v.records.forEach(r => {
+      if(r[0] >= from)
+      {
+        if(!cities.has(k))
+        {
+          cities.set(k, {
+            name: k,
+            infections: 0,
+            recoveries: 0,
+            deaths: 0,
+          });
+        }
+        const city = cities.get(k);
+        city.infections += r[1];
+        city.recoveries += r[2];
+        city.deaths += r[3];
+        total.infections += r[1];
+        total.recoveries += r[2];
+        total.deaths += r[3];
+      }
+    });
+  });
+  const all_entries = [
+    total,
+    ...Array.from(cities.values()).sort((b, a) => a.infections - b.infections),
+  ];
+  ORG = "\x1b[33m";
+  GRN = "\x1b[32m";
+  RED = "\x1b[31m";
+  DEF = "\x1b[0m";
+  console.log("+----------------------+------------+---------+--------+");
+  console.log("|         Name         | Recoveries |  Cases  | Deaths |");
+  console.log("+----------------------+------------+---------+--------+");
+  all_entries.forEach(e => {
+    const name = e.name.padEnd(20, ' ');
+    const infections = `${ORG}${`${e.infections}`.padStart(4, ' ')}${DEF}`;
+    const recoveries = `${GRN}${`${e.recoveries}`.padStart(4, ' ')}${DEF}`;
+    const deaths = `${RED}${`${e.deaths}`.padStart(4, ' ')}${DEF}`;
+    const line = `| ${name} |    ${recoveries}    |  ${infections}   | ${deaths}   |`;
+    console.log(line);
+    if(e.name === "TOTAL")
+      console.log("+----------------------+---------+------------+--------+");
+  });
+  console.log("+----------------------+---------+------------+--------+");
 }
 
 async function exec_process(cmd)
@@ -98,6 +158,8 @@ async function periodic_check()
   const data_changed = await check_if_data_changed();
   if(data_changed)
   {
+    await show_day();
+    console.log();
     do_commit();
   }
 }
@@ -121,11 +183,18 @@ async function main(args){
 
       if(params.find(x => x == '--show'))
       {
-        await show_data(data);
+        await show_data();
+      }
+      else if(params.find(x => x == '--show-day'))
+      {
+        await show_day();
       }
     }break;
     case 'show':{
       await main(['fetch', '--show']);
+    }break;
+    case 'show-day':{
+      await main(['fetch', '--show-day']);
     }break;
     case 'watch':{
       await new Promise(async (resolve, reject) => {
