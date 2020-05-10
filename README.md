@@ -34,6 +34,7 @@ Check Data Source section below for the frequency of these updates.
   Each `city` is an object that has the following properties:
     - `name_ar`: the name of the city in Arabic.
     - `name_eng`: the name of the city in English.
+    - `code`: the code of the city.
     - `infections`: the total number of infections in this city from start to `last_update`.
     - `recoveries`: the total number of recoveries in this city from start to `last_update`.
     - `deaths`: the total number of deaths in this city from start to `last_update`.
