@@ -1,6 +1,6 @@
 const axios = require("axios");
 
-const ARCGIS_COVID_CASES_URL = "https://services8.arcgis.com/uiAtN7dLXbrrdVL5/arcgis/rest/services/Saudi_COVID19_Cases/FeatureServer/1/query";
+const ARCGIS_COVID_CASES_URL = "https://services6.arcgis.com/bKYAIlQgwHslVRaK/arcgis/rest/services/VWPlacesCasesHostedView/FeatureServer/0/query";
 const ARCGIS_COVID_CASES_DEFAULT_PARAMS = {
   f: "json",
   where: "1=1",
@@ -12,12 +12,6 @@ const ARCGIS_COVID_CASES_DEFAULT_PARAMS = {
   resultRecordCount: 1000,
   cacheHint: true,
 };
-const WRONG_RECORDS_ID = new Set([
-  898,
-]);
-const WRONG_RECORDS_NAME = new Set([
-  'Wadi Al Fara\'a',
-]);
 async function arcgis_download_data()
 {
   let result = [];
@@ -38,7 +32,7 @@ async function arcgis_download_data()
     if(!response_data.exceededTransferLimit)break;
   }
   result.forEach(d => d.Reportdt = new Date(d.Reportdt));
-  result = result.filter(r => !WRONG_RECORDS_ID.has(r.OBJECTID) && !WRONG_RECORDS_NAME.has(r.Name_Eng));
+  result.forEach(d => d.Name = d.Name_Ar);
   result = result.sort((a, b) => a.Reportdt - b.Reportdt);
   return result;
 }

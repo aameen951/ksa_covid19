@@ -91,6 +91,7 @@ function gen_ksa_data_v2(arcgis_data){
     const city = cities.get(record.Name_Eng) || {
       name_ar: record.Name,
       name_eng: record.Name_Eng,
+      code: record.Place_Code,
       infections:0,
       recoveries:0,
       deaths:0,

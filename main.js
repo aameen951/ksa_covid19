@@ -42,7 +42,7 @@ async function show_data()
   ];
   for(let city of entries)
   {
-    console.log(city.name_eng.padEnd(20, " "), [
+    console.log(city.name_eng.padEnd(28, " "), [
       ["infections", `${city.infections}`, "\x1b[33m"],
       ["recoveries", `${city.recoveries}`, "\x1b[32m"],
       ["deaths", `${city.deaths}`, "\x1b[31m"],
@@ -96,20 +96,20 @@ async function show_day()
   GRN = "\x1b[32m";
   RED = "\x1b[31m";
   DEF = "\x1b[0m";
-  console.log("+----------------------+------------+---------+--------+");
-  console.log("|         Name         | Recoveries |  Cases  | Deaths |");
-  console.log("+----------------------+------------+---------+--------+");
+  console.log("+------------------------------+------------+---------+--------+");
+  console.log("|             Name             | Recoveries |  Cases  | Deaths |");
+  console.log("+------------------------------+------------+---------+--------+");
   all_entries.forEach(e => {
-    const name = e.name.padEnd(20, ' ');
+    const name = e.name.padEnd(28, ' ');
     const infections = `${ORG}${`${e.infections}`.padStart(4, ' ')}${DEF}`;
     const recoveries = `${GRN}${`${e.recoveries}`.padStart(4, ' ')}${DEF}`;
     const deaths = `${RED}${`${e.deaths}`.padStart(4, ' ')}${DEF}`;
     const line = `| ${name} |    ${recoveries}    |  ${infections}   | ${deaths}   |`;
     console.log(line);
     if(e.name === "TOTAL")
-      console.log("+----------------------+---------+------------+--------+");
+      console.log("+------------------------------+------------+---------+--------+");
   });
-  console.log("+----------------------+---------+------------+--------+");
+  console.log("+------------------------------+------------+---------+--------+");
 }
 
 async function exec_process(cmd)
