@@ -1,7 +1,7 @@
 {
   "data_source": "https://covid19.moh.gov.sa/",
   "last_update": 1589187600000,
-  "infections": 42925,
+  "infections": 42906,
   "recoveries": 15257,
   "deaths": 264,
   "cities": {
@@ -10096,28 +10096,6 @@
         [
           1589187600000,
           1,
-          0,
-          0
-        ]
-      ]
-    },
-    "Al Qara": {
-      "name_ar": "القرى",
-      "name_eng": "Al Qara",
-      "code": "G1583G12R12",
-      "infections": 19,
-      "recoveries": 0,
-      "deaths": 0,
-      "records": [
-        [
-          1589014800000,
-          1,
-          0,
-          0
-        ],
-        [
-          1589187600000,
-          18,
           0,
           0
         ]
