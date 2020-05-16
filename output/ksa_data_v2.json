@@ -2,7 +2,7 @@
   "data_source": "https://covid19.moh.gov.sa/",
   "last_update": 1589533200000,
   "infections": 52016,
-  "recoveries": 23658,
+  "recoveries": 23666,
   "deaths": 302,
   "cities": {
     "Qatif": {
@@ -6170,7 +6170,7 @@
       "name_eng": "AL BAHAH",
       "code": "C519G12R12",
       "infections": 28,
-      "recoveries": 22,
+      "recoveries": 23,
       "deaths": 0,
       "records": [
         [
@@ -6243,6 +6243,12 @@
           1589446800000,
           0,
           2,
+          0
+        ],
+        [
+          1589533200000,
+          0,
+          1,
           0
         ]
       ]
@@ -7772,7 +7778,7 @@
       "name_eng": "Mahayil",
       "code": "C595G60R06",
       "infections": 38,
-      "recoveries": 8,
+      "recoveries": 10,
       "deaths": 0,
       "records": [
         [
@@ -7846,6 +7852,12 @@
           5,
           1,
           0
+        ],
+        [
+          1589533200000,
+          0,
+          2,
+          0
         ]
       ]
     },
@@ -7854,7 +7866,7 @@
       "name_eng": "Al Qurayyat",
       "code": "C630G13R13",
       "infections": 32,
-      "recoveries": 28,
+      "recoveries": 30,
       "deaths": 0,
       "records": [
         [
@@ -7950,7 +7962,7 @@
         [
           1589533200000,
           1,
-          0,
+          2,
           0
         ]
       ]
@@ -9718,7 +9730,7 @@
       "name_eng": "Biljurashi",
       "code": "C709G12R12",
       "infections": 8,
-      "recoveries": 4,
+      "recoveries": 5,
       "deaths": 0,
       "records": [
         [
@@ -9755,6 +9767,12 @@
           1589446800000,
           1,
           0,
+          0
+        ],
+        [
+          1589533200000,
+          0,
+          1,
           0
         ]
       ]
@@ -9868,7 +9886,7 @@
       "name_eng": "Al Muzahimiyyah",
       "code": "C732G11R01",
       "infections": 24,
-      "recoveries": 0,
+      "recoveries": 1,
       "deaths": 0,
       "records": [
         [
@@ -9923,6 +9941,12 @@
           1589446800000,
           1,
           0,
+          0
+        ],
+        [
+          1589533200000,
+          0,
+          1,
           0
         ]
       ]
@@ -10070,7 +10094,7 @@
       "name_eng": "Al Mikhwah",
       "code": "C651G12R12",
       "infections": 11,
-      "recoveries": 14,
+      "recoveries": 15,
       "deaths": 0,
       "records": [
         [
@@ -10113,6 +10137,12 @@
           1589274000000,
           1,
           0,
+          0
+        ],
+        [
+          1589533200000,
+          0,
+          1,
           0
         ]
       ]
