@@ -4105,18 +4105,36 @@
         ]
       ]
     },
-    "Aridah": {
+    "Al ʻAridah": {
       "name_ar": "العارضة",
-      "name_eng": "Aridah",
-      "code": "O10476G10R10",
-      "infections": 1,
-      "recoveries": 0,
+      "name_eng": "Al ʻAridah",
+      "code": "C454G10R10",
+      "infections": 15,
+      "recoveries": 11,
       "deaths": 0,
       "records": [
         [
           1586292540000,
           1,
           0,
+          0
+        ],
+        [
+          1587772800000,
+          14,
+          0,
+          0
+        ],
+        [
+          1588928400000,
+          0,
+          1,
+          0
+        ],
+        [
+          1589446800000,
+          0,
+          10,
           0
         ]
       ]
@@ -10355,28 +10373,6 @@
         ]
       ]
     },
-    "Al 'aridah": {
-      "name_ar": "العارضة",
-      "name_eng": "Al 'aridah",
-      "code": "O10476G10R10",
-      "infections": 14,
-      "recoveries": 1,
-      "deaths": 0,
-      "records": [
-        [
-          1587772800000,
-          14,
-          0,
-          0
-        ],
-        [
-          1588928400000,
-          0,
-          1,
-          0
-        ]
-      ]
-    },
     "Dawmat al Jandal": {
       "name_ar": "دومة الجندل",
       "name_eng": "Dawmat al Jandal",
@@ -11775,22 +11771,6 @@
           1589360400000,
           1,
           0,
-          0
-        ]
-      ]
-    },
-    "Al ʻAridah": {
-      "name_ar": "العارِضة",
-      "name_eng": "Al ʻAridah",
-      "code": "C454G10R10",
-      "infections": 0,
-      "recoveries": 10,
-      "deaths": 0,
-      "records": [
-        [
-          1589446800000,
-          0,
-          10,
           0
         ]
       ]
