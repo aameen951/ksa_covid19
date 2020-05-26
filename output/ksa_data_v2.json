@@ -1,7 +1,7 @@
 {
   "data_source": "https://covid19.moh.gov.sa/",
   "last_update": 1590397200000,
-  "infections": 76636,
+  "infections": 76726,
   "recoveries": 48450,
   "deaths": 411,
   "cities": {
@@ -985,7 +985,7 @@
       "name_ar": "جدة",
       "name_eng": "Jeddah",
       "code": "C530G20R02",
-      "infections": 11511,
+      "infections": 11601,
       "recoveries": 7861,
       "deaths": 104,
       "records": [
@@ -1387,7 +1387,7 @@
         ],
         [
           1590397200000,
-          237,
+          327,
           854,
           1
         ]
