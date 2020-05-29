@@ -6293,7 +6293,7 @@
       "name_ar": "حائل",
       "name_eng": "HAʼIL",
       "code": "C514G80R08",
-      "infections": 280,
+      "infections": 288,
       "recoveries": 131,
       "deaths": 0,
       "records": [
@@ -6473,7 +6473,7 @@
         ],
         [
           1590570000000,
-          20,
+          28,
           4,
           0
         ]
@@ -17736,22 +17736,6 @@
         [
           1590483600000,
           1,
-          0,
-          0
-        ]
-      ]
-    },
-    "Al Shaarif": {
-      "name_ar": "الشارف",
-      "name_eng": "Al Shaarif",
-      "code": "O10656G80R08",
-      "infections": 8,
-      "recoveries": 0,
-      "deaths": 0,
-      "records": [
-        [
-          1590570000000,
-          8,
           0,
           0
         ]
