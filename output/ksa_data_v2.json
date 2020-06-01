@@ -7962,7 +7962,7 @@
       "name_eng": "Khamis Mushayt",
       "code": "C521G60R06",
       "infections": 156,
-      "recoveries": 164,
+      "recoveries": 190,
       "deaths": 0,
       "records": [
         [
@@ -8196,7 +8196,7 @@
         [
           1590915600000,
           3,
-          15,
+          41,
           0
         ]
       ]
@@ -10430,7 +10430,7 @@
       "name_eng": "Mahayil",
       "code": "C595G60R06",
       "infections": 83,
-      "recoveries": 104,
+      "recoveries": 84,
       "deaths": 0,
       "records": [
         [
@@ -10604,7 +10604,7 @@
         [
           1590915600000,
           4,
-          30,
+          10,
           0
         ]
       ]
@@ -19198,7 +19198,7 @@
       "name_eng": "Rijal Al Ma",
       "code": "G1659G60R06",
       "infections": 8,
-      "recoveries": 12,
+      "recoveries": 6,
       "deaths": 0,
       "records": [
         [
@@ -19222,7 +19222,7 @@
         [
           1590915600000,
           2,
-          6,
+          0,
           0
         ]
       ]
