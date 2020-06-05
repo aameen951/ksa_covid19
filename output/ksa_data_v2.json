@@ -2,7 +2,7 @@
   "data_source": "https://covid19.moh.gov.sa/",
   "last_update": 1591261200000,
   "infections": 95748,
-  "recoveries": 70615,
+  "recoveries": 70616,
   "deaths": 642,
   "cities": {
     "Qatif": {
@@ -9258,7 +9258,7 @@
       "name_eng": "Al Hufuf",
       "code": "C529G50R05",
       "infections": 3593,
-      "recoveries": 3207,
+      "recoveries": 3208,
       "deaths": 3,
       "records": [
         [
@@ -9528,7 +9528,7 @@
         [
           1591261200000,
           102,
-          0,
+          1,
           0
         ]
       ]
