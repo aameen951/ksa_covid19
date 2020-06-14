@@ -1,9 +1,9 @@
 {
   "data_source": "https://covid19.moh.gov.sa/",
-  "last_update": 1591952400000,
-  "infections": 123308,
-  "recoveries": 82548,
-  "deaths": 932,
+  "last_update": 1592038800000,
+  "infections": 127541,
+  "recoveries": 84720,
+  "deaths": 972,
   "cities": {
     "Qatif": {
       "name_ar": "القطيف",
@@ -985,9 +985,9 @@
       "name_ar": "جدة",
       "name_eng": "Jeddah",
       "code": "C530G20R02",
-      "infections": 18697,
-      "recoveries": 13954,
-      "deaths": 316,
+      "infections": 19049,
+      "recoveries": 14093,
+      "deaths": 327,
       "records": [
         [
           1583884800000,
@@ -1498,6 +1498,12 @@
           527,
           168,
           18
+        ],
+        [
+          1592038800000,
+          352,
+          139,
+          11
         ]
       ]
     },
@@ -3119,8 +3125,8 @@
       "name_ar": "القنفذة",
       "name_eng": "Al Qunfudhah",
       "code": "C708G20R02",
-      "infections": 168,
-      "recoveries": 136,
+      "infections": 170,
+      "recoveries": 149,
       "deaths": 1,
       "records": [
         [
@@ -3404,6 +3410,12 @@
           2,
           0,
           0
+        ],
+        [
+          1592038800000,
+          2,
+          13,
+          0
         ]
       ]
     },
@@ -3411,8 +3423,8 @@
       "name_ar": "عرعر",
       "name_eng": "ʻARʻAR",
       "code": "C513G90R09",
-      "infections": 152,
-      "recoveries": 81,
+      "infections": 154,
+      "recoveries": 82,
       "deaths": 3,
       "records": [
         [
@@ -3677,6 +3689,12 @@
           1591866000000,
           14,
           0,
+          0
+        ],
+        [
+          1592038800000,
+          2,
+          1,
           0
         ]
       ]
@@ -4245,7 +4263,7 @@
       "name_ar": "صامطة",
       "name_eng": "Samtah",
       "code": "C703G10R10",
-      "infections": 35,
+      "infections": 37,
       "recoveries": 17,
       "deaths": 0,
       "records": [
@@ -4380,6 +4398,12 @@
           0,
           1,
           0
+        ],
+        [
+          1592038800000,
+          2,
+          0,
+          0
         ]
       ]
     },
@@ -4443,8 +4467,8 @@
       "name_ar": "المبرز",
       "name_eng": "Al Mubarraz",
       "code": "O9812G50R05",
-      "infections": 504,
-      "recoveries": 100,
+      "infections": 550,
+      "recoveries": 113,
       "deaths": 0,
       "records": [
         [
@@ -4571,6 +4595,12 @@
           1591952400000,
           7,
           35,
+          0
+        ],
+        [
+          1592038800000,
+          46,
+          13,
           0
         ]
       ]
@@ -4720,7 +4750,7 @@
       "name_eng": "Duba",
       "code": "C720G70R07",
       "infections": 71,
-      "recoveries": 56,
+      "recoveries": 60,
       "deaths": 0,
       "records": [
         [
@@ -4860,6 +4890,12 @@
           4,
           1,
           0
+        ],
+        [
+          1592038800000,
+          0,
+          4,
+          0
         ]
       ]
     },
@@ -4973,7 +5009,7 @@
       "name_ar": "العارضة",
       "name_eng": "Al ʻAridah",
       "code": "C454G10R10",
-      "infections": 49,
+      "infections": 52,
       "recoveries": 25,
       "deaths": 0,
       "records": [
@@ -5077,6 +5113,12 @@
           1591866000000,
           0,
           2,
+          0
+        ],
+        [
+          1592038800000,
+          3,
+          0,
           0
         ]
       ]
@@ -5287,9 +5329,9 @@
       "name_ar": "صبيا",
       "name_eng": "Sabya",
       "code": "C704G10R10",
-      "infections": 144,
+      "infections": 146,
       "recoveries": 92,
-      "deaths": 2,
+      "deaths": 3,
       "records": [
         [
           1586607000000,
@@ -5494,6 +5536,12 @@
           1,
           4,
           0
+        ],
+        [
+          1592038800000,
+          2,
+          0,
+          1
         ]
       ]
     },
@@ -5607,8 +5655,8 @@
       "name_ar": "الزلفي",
       "name_eng": "Az Zulfi",
       "code": "C583G10R01",
-      "infections": 128,
-      "recoveries": 103,
+      "infections": 130,
+      "recoveries": 105,
       "deaths": 0,
       "records": [
         [
@@ -5814,6 +5862,12 @@
           4,
           1,
           0
+        ],
+        [
+          1592038800000,
+          2,
+          2,
+          0
         ]
       ]
     },
@@ -5821,8 +5875,8 @@
       "name_ar": "الجفر",
       "name_eng": "Al Jafr",
       "code": "O10794G50R05",
-      "infections": 211,
-      "recoveries": 112,
+      "infections": 215,
+      "recoveries": 115,
       "deaths": 0,
       "records": [
         [
@@ -6088,6 +6142,12 @@
           0,
           15,
           0
+        ],
+        [
+          1592038800000,
+          4,
+          3,
+          0
         ]
       ]
     },
@@ -6096,7 +6156,7 @@
       "name_eng": "Al Muwayh",
       "code": "C688G21R02",
       "infections": 29,
-      "recoveries": 16,
+      "recoveries": 20,
       "deaths": 0,
       "records": [
         [
@@ -6197,6 +6257,12 @@
         ],
         [
           1591952400000,
+          0,
+          4,
+          0
+        ],
+        [
+          1592038800000,
           0,
           4,
           0
@@ -6325,8 +6391,8 @@
       "name_ar": "الليث",
       "name_eng": "Al Lith",
       "code": "C711G20R02",
-      "infections": 57,
-      "recoveries": 16,
+      "infections": 61,
+      "recoveries": 18,
       "deaths": 0,
       "records": [
         [
@@ -6472,6 +6538,12 @@
           2,
           0,
           0
+        ],
+        [
+          1592038800000,
+          4,
+          2,
+          0
         ]
       ]
     },
@@ -6549,7 +6621,7 @@
       "name_ar": "ثريبان",
       "name_eng": "Thurayban",
       "code": "O8936G21R02",
-      "infections": 45,
+      "infections": 47,
       "recoveries": 31,
       "deaths": 0,
       "records": [
@@ -6684,6 +6756,12 @@
           10,
           0,
           0
+        ],
+        [
+          1592038800000,
+          2,
+          0,
+          0
         ]
       ]
     },
@@ -6723,8 +6801,8 @@
       "name_ar": "رابغ",
       "name_eng": "Rabigh",
       "code": "C577G20R02",
-      "infections": 59,
-      "recoveries": 43,
+      "infections": 60,
+      "recoveries": 44,
       "deaths": 0,
       "records": [
         [
@@ -6917,6 +6995,12 @@
           1591952400000,
           4,
           0,
+          0
+        ],
+        [
+          1592038800000,
+          1,
+          1,
           0
         ]
       ]
@@ -7297,9 +7381,9 @@
       "name_ar": "تبوك",
       "name_eng": "TABUK",
       "code": "C511G70R07",
-      "infections": 797,
-      "recoveries": 696,
-      "deaths": 8,
+      "infections": 811,
+      "recoveries": 792,
+      "deaths": 9,
       "records": [
         [
           1587427200000,
@@ -7606,6 +7690,12 @@
           0,
           54,
           0
+        ],
+        [
+          1592038800000,
+          14,
+          96,
+          1
         ]
       ]
     },
@@ -7613,8 +7703,8 @@
       "name_ar": "حائل",
       "name_eng": "HAʼIL",
       "code": "C514G80R08",
-      "infections": 493,
-      "recoveries": 306,
+      "infections": 504,
+      "recoveries": 316,
       "deaths": 0,
       "records": [
         [
@@ -7892,6 +7982,12 @@
           4,
           4,
           0
+        ],
+        [
+          1592038800000,
+          11,
+          10,
+          0
         ]
       ]
     },
@@ -7899,8 +7995,8 @@
       "name_ar": "بريدة",
       "name_eng": "BURAYDAH",
       "code": "C515G40R04",
-      "infections": 971,
-      "recoveries": 717,
+      "infections": 976,
+      "recoveries": 718,
       "deaths": 6,
       "records": [
         [
@@ -8214,6 +8310,12 @@
           33,
           2,
           1
+        ],
+        [
+          1592038800000,
+          5,
+          1,
+          0
         ]
       ]
     },
@@ -8221,9 +8323,9 @@
       "name_ar": "المدينة المنورة",
       "name_eng": "AL MADINAH al MUNAWWARAH",
       "code": "C516G30R03",
-      "infections": 9181,
-      "recoveries": 9408,
-      "deaths": 35,
+      "infections": 9339,
+      "recoveries": 9537,
+      "deaths": 40,
       "records": [
         [
           1587427200000,
@@ -8542,6 +8644,12 @@
           191,
           24,
           0
+        ],
+        [
+          1592038800000,
+          158,
+          129,
+          5
         ]
       ]
     },
@@ -8549,9 +8657,9 @@
       "name_ar": "مكة المكرمة",
       "name_eng": "MAKKAH al MUKARRAMAH",
       "code": "C517G20R02",
-      "infections": 16486,
-      "recoveries": 14212,
-      "deaths": 275,
+      "infections": 16800,
+      "recoveries": 14489,
+      "deaths": 285,
       "records": [
         [
           1587427200000,
@@ -8870,6 +8978,12 @@
           310,
           99,
           7
+        ],
+        [
+          1592038800000,
+          314,
+          277,
+          10
         ]
       ]
     },
@@ -8877,9 +8991,9 @@
       "name_ar": "الطائف",
       "name_eng": "At Taʼif",
       "code": "C518G20R02",
-      "infections": 2392,
-      "recoveries": 1671,
-      "deaths": 11,
+      "infections": 2466,
+      "recoveries": 1706,
+      "deaths": 12,
       "records": [
         [
           1587427200000,
@@ -9198,6 +9312,12 @@
           57,
           22,
           1
+        ],
+        [
+          1592038800000,
+          74,
+          35,
+          1
         ]
       ]
     },
@@ -9206,7 +9326,7 @@
       "name_eng": "AL BAHAH",
       "code": "C519G12R12",
       "infections": 79,
-      "recoveries": 62,
+      "recoveries": 63,
       "deaths": 1,
       "records": [
         [
@@ -9406,6 +9526,12 @@
           2,
           3,
           0
+        ],
+        [
+          1592038800000,
+          0,
+          1,
+          0
         ]
       ]
     },
@@ -9413,8 +9539,8 @@
       "name_ar": "خميس مشيط",
       "name_eng": "Khamis Mushayt",
       "code": "C521G60R06",
-      "infections": 478,
-      "recoveries": 237,
+      "infections": 541,
+      "recoveries": 260,
       "deaths": 0,
       "records": [
         [
@@ -9722,6 +9848,12 @@
           17,
           2,
           0
+        ],
+        [
+          1592038800000,
+          63,
+          23,
+          0
         ]
       ]
     },
@@ -9729,9 +9861,9 @@
       "name_ar": "الدمام",
       "name_eng": "Ad Dammam",
       "code": "C527G50R05",
-      "infections": 6898,
-      "recoveries": 5030,
-      "deaths": 35,
+      "infections": 7059,
+      "recoveries": 5130,
+      "deaths": 36,
       "records": [
         [
           1587427200000,
@@ -10050,6 +10182,12 @@
           227,
           60,
           4
+        ],
+        [
+          1592038800000,
+          161,
+          100,
+          1
         ]
       ]
     },
@@ -10057,8 +10195,8 @@
       "name_ar": "الخبر",
       "name_eng": "Al Khubar",
       "code": "C528G50R05",
-      "infections": 3101,
-      "recoveries": 1825,
+      "infections": 3238,
+      "recoveries": 1861,
       "deaths": 3,
       "records": [
         [
@@ -10378,6 +10516,12 @@
           163,
           49,
           0
+        ],
+        [
+          1592038800000,
+          137,
+          36,
+          0
         ]
       ]
     },
@@ -10385,9 +10529,9 @@
       "name_ar": "الهفوف",
       "name_eng": "Al Hufuf",
       "code": "C529G50R05",
-      "infections": 4887,
-      "recoveries": 4020,
-      "deaths": 16,
+      "infections": 5034,
+      "recoveries": 4074,
+      "deaths": 18,
       "records": [
         [
           1587427200000,
@@ -10706,6 +10850,12 @@
           91,
           276,
           0
+        ],
+        [
+          1592038800000,
+          147,
+          54,
+          2
         ]
       ]
     },
@@ -10759,9 +10909,9 @@
       "name_ar": "الرياض",
       "name_eng": "AR RIYAD",
       "code": "C531G10R01",
-      "infections": 29865,
-      "recoveries": 18238,
-      "deaths": 94,
+      "infections": 31600,
+      "recoveries": 19165,
+      "deaths": 98,
       "records": [
         [
           1587427200000,
@@ -11080,6 +11230,12 @@
           1089,
           487,
           5
+        ],
+        [
+          1592038800000,
+          1735,
+          927,
+          4
         ]
       ]
     },
@@ -11087,8 +11243,8 @@
       "name_ar": "بيشة",
       "name_eng": "Bishah",
       "code": "C574G60R06",
-      "infections": 208,
-      "recoveries": 138,
+      "infections": 221,
+      "recoveries": 142,
       "deaths": 0,
       "records": [
         [
@@ -11330,6 +11486,12 @@
           14,
           0,
           0
+        ],
+        [
+          1592038800000,
+          13,
+          4,
+          0
         ]
       ]
     },
@@ -11337,8 +11499,8 @@
       "name_ar": "ينبع",
       "name_eng": "Yanbuʻ",
       "code": "C578G30R03",
-      "infections": 549,
-      "recoveries": 432,
+      "infections": 572,
+      "recoveries": 439,
       "deaths": 2,
       "records": [
         [
@@ -11634,6 +11796,12 @@
           23,
           16,
           0
+        ],
+        [
+          1592038800000,
+          23,
+          7,
+          0
         ]
       ]
     },
@@ -11641,8 +11809,8 @@
       "name_ar": "الجبيل",
       "name_eng": "Al Jubayl",
       "code": "C587G50R05",
-      "infections": 3133,
-      "recoveries": 2615,
+      "infections": 3174,
+      "recoveries": 2641,
       "deaths": 2,
       "records": [
         [
@@ -11962,6 +12130,12 @@
           47,
           19,
           0
+        ],
+        [
+          1592038800000,
+          41,
+          26,
+          0
         ]
       ]
     },
@@ -11969,9 +12143,9 @@
       "name_ar": "القطيف",
       "name_eng": "Al Qatif",
       "code": "C589G50R05",
-      "infections": 2080,
-      "recoveries": 888,
-      "deaths": 3,
+      "infections": 2224,
+      "recoveries": 913,
+      "deaths": 5,
       "records": [
         [
           1587427200000,
@@ -12284,6 +12458,12 @@
           114,
           18,
           0
+        ],
+        [
+          1592038800000,
+          144,
+          25,
+          2
         ]
       ]
     },
@@ -12291,8 +12471,8 @@
       "name_ar": "الظهران",
       "name_eng": "AD͟h D͟hahran",
       "code": "C590G50R05",
-      "infections": 1011,
-      "recoveries": 536,
+      "infections": 1099,
+      "recoveries": 562,
       "deaths": 0,
       "records": [
         [
@@ -12582,6 +12762,12 @@
           16,
           13,
           0
+        ],
+        [
+          1592038800000,
+          88,
+          26,
+          0
         ]
       ]
     },
@@ -12589,8 +12775,8 @@
       "name_ar": "محايل",
       "name_eng": "Mahayil",
       "code": "C595G60R06",
-      "infections": 150,
-      "recoveries": 110,
+      "infections": 166,
+      "recoveries": 116,
       "deaths": 0,
       "records": [
         [
@@ -12838,6 +13024,12 @@
           1,
           1,
           0
+        ],
+        [
+          1592038800000,
+          16,
+          6,
+          0
         ]
       ]
     },
@@ -12999,8 +13191,8 @@
       "name_ar": "شرورة",
       "name_eng": "Sharurah",
       "code": "C701G11R11",
-      "infections": 114,
-      "recoveries": 88,
+      "infections": 119,
+      "recoveries": 89,
       "deaths": 0,
       "records": [
         [
@@ -13194,6 +13386,12 @@
           0,
           4,
           0
+        ],
+        [
+          1592038800000,
+          5,
+          1,
+          0
         ]
       ]
     },
@@ -13201,7 +13399,7 @@
       "name_ar": "المذنب",
       "name_eng": "Al Midhnab",
       "code": "C736G40R04",
-      "infections": 37,
+      "infections": 39,
       "recoveries": 29,
       "deaths": 0,
       "records": [
@@ -13354,6 +13552,12 @@
           1,
           0,
           0
+        ],
+        [
+          1592038800000,
+          2,
+          0,
+          0
         ]
       ]
     },
@@ -13361,8 +13565,8 @@
       "name_ar": "الخرج",
       "name_eng": "Al Kharj",
       "code": "G1597G10R01",
-      "infections": 449,
-      "recoveries": 219,
+      "infections": 503,
+      "recoveries": 226,
       "deaths": 1,
       "records": [
         [
@@ -13652,6 +13856,12 @@
           27,
           13,
           0
+        ],
+        [
+          1592038800000,
+          54,
+          7,
+          0
         ]
       ]
     },
@@ -13659,8 +13869,8 @@
       "name_ar": "راس تنورة",
       "name_eng": "Ras Tannurah",
       "code": "O9691G50R05",
-      "infections": 307,
-      "recoveries": 126,
+      "infections": 312,
+      "recoveries": 127,
       "deaths": 0,
       "records": [
         [
@@ -13914,6 +14124,12 @@
           19,
           1,
           0
+        ],
+        [
+          1592038800000,
+          5,
+          1,
+          0
         ]
       ]
     },
@@ -13922,7 +14138,7 @@
       "name_eng": "Al Hada",
       "code": "C10795G20R02",
       "infections": 77,
-      "recoveries": 73,
+      "recoveries": 74,
       "deaths": 0,
       "records": [
         [
@@ -14050,6 +14266,12 @@
           0,
           4,
           0
+        ],
+        [
+          1592038800000,
+          0,
+          1,
+          0
         ]
       ]
     },
@@ -14057,8 +14279,8 @@
       "name_ar": "أبها",
       "name_eng": "ABHA",
       "code": "C520G60R06",
-      "infections": 273,
-      "recoveries": 75,
+      "infections": 326,
+      "recoveries": 78,
       "deaths": 0,
       "records": [
         [
@@ -14282,6 +14504,12 @@
           9,
           2,
           0
+        ],
+        [
+          1592038800000,
+          53,
+          3,
+          0
         ]
       ]
     },
@@ -14289,8 +14517,8 @@
       "name_ar": "نجران",
       "name_eng": "NAJRAN",
       "code": "C523G11R11",
-      "infections": 254,
-      "recoveries": 125,
+      "infections": 307,
+      "recoveries": 134,
       "deaths": 0,
       "records": [
         [
@@ -14490,6 +14718,12 @@
           16,
           6,
           0
+        ],
+        [
+          1592038800000,
+          53,
+          9,
+          0
         ]
       ]
     },
@@ -14497,7 +14731,7 @@
       "name_ar": "عنيزة",
       "name_eng": "ʻUnayzah",
       "code": "C584G40R04",
-      "infections": 178,
+      "infections": 182,
       "recoveries": 114,
       "deaths": 0,
       "records": [
@@ -14716,6 +14950,12 @@
           1,
           0,
           0
+        ],
+        [
+          1592038800000,
+          4,
+          0,
+          0
         ]
       ]
     },
@@ -14724,7 +14964,7 @@
       "name_eng": "Al Mandaq",
       "code": "C601G12R12",
       "infections": 16,
-      "recoveries": 12,
+      "recoveries": 13,
       "deaths": 0,
       "records": [
         [
@@ -14810,6 +15050,12 @@
           1,
           4,
           0
+        ],
+        [
+          1592038800000,
+          0,
+          1,
+          0
         ]
       ]
     },
@@ -14817,7 +15063,7 @@
       "name_ar": "الخرمة",
       "name_eng": "Al Khurmah",
       "code": "C609G20R02",
-      "infections": 33,
+      "infections": 36,
       "recoveries": 14,
       "deaths": 0,
       "records": [
@@ -14940,6 +15186,12 @@
           10,
           0,
           0
+        ],
+        [
+          1592038800000,
+          3,
+          0,
+          0
         ]
       ]
     },
@@ -15041,7 +15293,7 @@
       "name_ar": "حفر الباطن",
       "name_eng": "Hafar al Batin",
       "code": "C726G50R05",
-      "infections": 299,
+      "infections": 328,
       "recoveries": 89,
       "deaths": 2,
       "records": [
@@ -15296,6 +15548,12 @@
           35,
           6,
           0
+        ],
+        [
+          1592038800000,
+          29,
+          0,
+          0
         ]
       ]
     },
@@ -15446,7 +15704,7 @@
       "name_eng": "Al Khafji",
       "code": "C739G50R05",
       "infections": 68,
-      "recoveries": 37,
+      "recoveries": 40,
       "deaths": 0,
       "records": [
         [
@@ -15616,6 +15874,12 @@
           1,
           0,
           0
+        ],
+        [
+          1592038800000,
+          0,
+          3,
+          0
         ]
       ]
     },
@@ -15623,8 +15887,8 @@
       "name_ar": "الدرعية",
       "name_eng": "Ad Dirʻiyyah",
       "code": "C759G10R01",
-      "infections": 1071,
-      "recoveries": 675,
+      "infections": 1101,
+      "recoveries": 711,
       "deaths": 0,
       "records": [
         [
@@ -15914,6 +16178,12 @@
           19,
           12,
           0
+        ],
+        [
+          1592038800000,
+          30,
+          36,
+          0
         ]
       ]
     },
@@ -15921,7 +16191,7 @@
       "name_ar": "وادي الفرع",
       "name_eng": "Wadi Al Fara",
       "code": "G1622G30R03",
-      "infections": 47,
+      "infections": 49,
       "recoveries": 36,
       "deaths": 0,
       "records": [
@@ -16062,6 +16332,12 @@
           2,
           0,
           0
+        ],
+        [
+          1592038800000,
+          2,
+          0,
+          0
         ]
       ]
     },
@@ -16188,7 +16464,7 @@
       "name_eng": "Khulays",
       "code": "C41G20R02",
       "infections": 224,
-      "recoveries": 198,
+      "recoveries": 205,
       "deaths": 0,
       "records": [
         [
@@ -16400,6 +16676,12 @@
           2,
           9,
           0
+        ],
+        [
+          1592038800000,
+          0,
+          7,
+          0
         ]
       ]
     },
@@ -16408,7 +16690,7 @@
       "name_eng": "Hawtat Sudayr",
       "code": "C420G10R01",
       "infections": 17,
-      "recoveries": 11,
+      "recoveries": 13,
       "deaths": 0,
       "records": [
         [
@@ -16499,6 +16781,12 @@
           1591866000000,
           0,
           1,
+          0
+        ],
+        [
+          1592038800000,
+          0,
+          2,
           0
         ]
       ]
@@ -16643,8 +16931,8 @@
       "name_ar": "جازان",
       "name_eng": "JAZAN",
       "code": "C522G10R10",
-      "infections": 201,
-      "recoveries": 71,
+      "infections": 216,
+      "recoveries": 72,
       "deaths": 3,
       "records": [
         [
@@ -16790,6 +17078,12 @@
           6,
           5,
           0
+        ],
+        [
+          1592038800000,
+          15,
+          1,
+          0
         ]
       ]
     },
@@ -16797,8 +17091,8 @@
       "name_ar": "المجمعة",
       "name_eng": "Al Majmaʻah",
       "code": "C526G10R01",
-      "infections": 163,
-      "recoveries": 133,
+      "infections": 174,
+      "recoveries": 135,
       "deaths": 0,
       "records": [
         [
@@ -16980,6 +17274,12 @@
           3,
           0,
           0
+        ],
+        [
+          1592038800000,
+          11,
+          2,
+          0
         ]
       ]
     },
@@ -16987,8 +17287,8 @@
       "name_ar": "بقيق",
       "name_eng": "Buqayq",
       "code": "C591G50R05",
-      "infections": 222,
-      "recoveries": 158,
+      "infections": 223,
+      "recoveries": 160,
       "deaths": 0,
       "records": [
         [
@@ -17242,6 +17542,12 @@
           10,
           6,
           0
+        ],
+        [
+          1592038800000,
+          1,
+          2,
+          0
         ]
       ]
     },
@@ -17249,8 +17555,8 @@
       "name_ar": "الحناكية",
       "name_eng": "Al Hinakiyyah",
       "code": "C685G30R03",
-      "infections": 8,
-      "recoveries": 4,
+      "infections": 13,
+      "recoveries": 5,
       "deaths": 0,
       "records": [
         [
@@ -17306,6 +17612,12 @@
           2,
           0,
           0
+        ],
+        [
+          1592038800000,
+          5,
+          1,
+          0
         ]
       ]
     },
@@ -17313,7 +17625,7 @@
       "name_ar": "مهد الذهب",
       "name_eng": "Mihd  adh Dhahab",
       "code": "C687G30R03",
-      "infections": 42,
+      "infections": 46,
       "recoveries": 16,
       "deaths": 0,
       "records": [
@@ -17412,6 +17724,12 @@
           5,
           0,
           0
+        ],
+        [
+          1592038800000,
+          4,
+          0,
+          0
         ]
       ]
     },
@@ -17419,8 +17737,8 @@
       "name_ar": "حوطة بني تميم",
       "name_eng": "Hawtat Bani Tamim",
       "code": "C693G11R01",
-      "infections": 160,
-      "recoveries": 45,
+      "infections": 182,
+      "recoveries": 53,
       "deaths": 0,
       "records": [
         [
@@ -17626,6 +17944,12 @@
           8,
           6,
           0
+        ],
+        [
+          1592038800000,
+          22,
+          8,
+          0
         ]
       ]
     },
@@ -17633,9 +17957,9 @@
       "name_ar": "بيش",
       "name_eng": "Baysh",
       "code": "C705G10R10",
-      "infections": 891,
-      "recoveries": 809,
-      "deaths": 5,
+      "infections": 900,
+      "recoveries": 816,
+      "deaths": 6,
       "records": [
         [
           1587600000000,
@@ -17930,6 +18254,12 @@
           9,
           2,
           0
+        ],
+        [
+          1592038800000,
+          9,
+          7,
+          1
         ]
       ]
     },
@@ -17938,7 +18268,7 @@
       "name_eng": "Biljurashi",
       "code": "C709G12R12",
       "infections": 20,
-      "recoveries": 16,
+      "recoveries": 17,
       "deaths": 0,
       "records": [
         [
@@ -18060,6 +18390,12 @@
           1,
           2,
           0
+        ],
+        [
+          1592038800000,
+          0,
+          1,
+          0
         ]
       ]
     },
@@ -18161,7 +18497,7 @@
       "name_ar": "رفحا",
       "name_eng": "Rafha",
       "code": "C724G90R09",
-      "infections": 17,
+      "infections": 18,
       "recoveries": 12,
       "deaths": 1,
       "records": [
@@ -18278,6 +18614,12 @@
           2,
           0,
           0
+        ],
+        [
+          1592038800000,
+          1,
+          0,
+          0
         ]
       ]
     },
@@ -18285,8 +18627,8 @@
       "name_ar": "المزاحمية",
       "name_eng": "Al Muzahimiyyah",
       "code": "C732G11R01",
-      "infections": 348,
-      "recoveries": 66,
+      "infections": 364,
+      "recoveries": 95,
       "deaths": 0,
       "records": [
         [
@@ -18510,6 +18852,12 @@
           34,
           5,
           0
+        ],
+        [
+          1592038800000,
+          16,
+          29,
+          0
         ]
       ]
     },
@@ -18517,8 +18865,8 @@
       "name_ar": "ساجر",
       "name_eng": "Sajir",
       "code": "O8227G10R01",
-      "infections": 35,
-      "recoveries": 24,
+      "infections": 46,
+      "recoveries": 25,
       "deaths": 0,
       "records": [
         [
@@ -18652,6 +19000,12 @@
           0,
           4,
           0
+        ],
+        [
+          1592038800000,
+          11,
+          1,
+          0
         ]
       ]
     },
@@ -18659,7 +19013,7 @@
       "name_ar": "القريع",
       "name_eng": "Al Qari'",
       "code": "O9351G21R02",
-      "infections": 34,
+      "infections": 36,
       "recoveries": 27,
       "deaths": 0,
       "records": [
@@ -18812,6 +19166,12 @@
           1,
           0,
           0
+        ],
+        [
+          1592038800000,
+          2,
+          0,
+          0
         ]
       ]
     },
@@ -18836,7 +19196,7 @@
       "name_eng": "Al Mikhwah",
       "code": "C651G12R12",
       "infections": 34,
-      "recoveries": 24,
+      "recoveries": 25,
       "deaths": 0,
       "records": [
         [
@@ -18982,6 +19342,12 @@
           2,
           1,
           0
+        ],
+        [
+          1592038800000,
+          0,
+          1,
+          0
         ]
       ]
     },
@@ -19017,8 +19383,8 @@
       "name_ar": "ابو عريش",
       "name_eng": "Abu ʻArish",
       "code": "C573G10R10",
-      "infections": 36,
-      "recoveries": 12,
+      "infections": 42,
+      "recoveries": 13,
       "deaths": 0,
       "records": [
         [
@@ -19110,6 +19476,12 @@
           0,
           1,
           0
+        ],
+        [
+          1592038800000,
+          6,
+          1,
+          0
         ]
       ]
     },
@@ -19117,7 +19489,7 @@
       "name_ar": "المجاردة",
       "name_eng": "Al Majardah",
       "code": "C700G61R06",
-      "infections": 88,
+      "infections": 94,
       "recoveries": 74,
       "deaths": 0,
       "records": [
@@ -19306,6 +19678,12 @@
           1,
           4,
           0
+        ],
+        [
+          1592038800000,
+          6,
+          0,
+          0
         ]
       ]
     },
@@ -19313,8 +19691,8 @@
       "name_ar": "وادي الدواسر",
       "name_eng": "Wadi Ad Dawasir",
       "code": "O8731G10R01",
-      "infections": 282,
-      "recoveries": 87,
+      "infections": 332,
+      "recoveries": 94,
       "deaths": 1,
       "records": [
         [
@@ -19544,6 +19922,12 @@
           5,
           9,
           0
+        ],
+        [
+          1592038800000,
+          50,
+          7,
+          0
         ]
       ]
     },
@@ -19703,8 +20087,8 @@
       "name_ar": "أملج",
       "name_eng": "Umlujj",
       "code": "C716G70R07",
-      "infections": 65,
-      "recoveries": 57,
+      "infections": 66,
+      "recoveries": 60,
       "deaths": 0,
       "records": [
         [
@@ -19838,6 +20222,12 @@
           1,
           0,
           0
+        ],
+        [
+          1592038800000,
+          1,
+          3,
+          0
         ]
       ]
     },
@@ -19846,7 +20236,7 @@
       "name_eng": "An Nuʻayriyyah",
       "code": "C738G50R05",
       "infections": 140,
-      "recoveries": 82,
+      "recoveries": 84,
       "deaths": 1,
       "records": [
         [
@@ -20070,6 +20460,12 @@
           6,
           0,
           0
+        ],
+        [
+          1592038800000,
+          0,
+          2,
+          0
         ]
       ]
     },
@@ -20187,8 +20583,8 @@
       "name_ar": "سبت العلاية",
       "name_eng": "Sabt al ʻAlayah",
       "code": "C600G61R06",
-      "infections": 32,
-      "recoveries": 26,
+      "infections": 38,
+      "recoveries": 27,
       "deaths": 0,
       "records": [
         [
@@ -20316,6 +20712,12 @@
           2,
           1,
           0
+        ],
+        [
+          1592038800000,
+          6,
+          1,
+          0
         ]
       ]
     },
@@ -20323,7 +20725,7 @@
       "name_ar": "رياض الخبراء",
       "name_eng": "Riyad al Khabraʼ",
       "code": "C679G40R04",
-      "infections": 16,
+      "infections": 17,
       "recoveries": 2,
       "deaths": 0,
       "records": [
@@ -20380,6 +20782,12 @@
           1,
           0,
           0
+        ],
+        [
+          1592038800000,
+          1,
+          0,
+          0
         ]
       ]
     },
@@ -20387,8 +20795,8 @@
       "name_ar": "صفوى",
       "name_eng": "Safwá",
       "code": "C682G50R05",
-      "infections": 403,
-      "recoveries": 187,
+      "infections": 448,
+      "recoveries": 192,
       "deaths": 0,
       "records": [
         [
@@ -20600,6 +21008,12 @@
           48,
           0,
           0
+        ],
+        [
+          1592038800000,
+          45,
+          5,
+          0
         ]
       ]
     },
@@ -20731,7 +21145,7 @@
       "name_ar": "قرية العليا",
       "name_eng": "Qaryat Al 'ulya",
       "code": "O7818G51R05",
-      "infections": 47,
+      "infections": 51,
       "recoveries": 27,
       "deaths": 0,
       "records": [
@@ -20848,6 +21262,12 @@
           8,
           0,
           0
+        ],
+        [
+          1592038800000,
+          4,
+          0,
+          0
         ]
       ]
     },
@@ -20855,7 +21275,7 @@
       "name_ar": "العيدابي",
       "name_eng": "Al ʻIdabi",
       "code": "C401G10R10",
-      "infections": 16,
+      "infections": 22,
       "recoveries": 6,
       "deaths": 0,
       "records": [
@@ -20948,6 +21368,12 @@
           0,
           1,
           0
+        ],
+        [
+          1592038800000,
+          6,
+          0,
+          0
         ]
       ]
     },
@@ -20955,7 +21381,7 @@
       "name_ar": "ضرما",
       "name_eng": "Duruma",
       "code": "C686G11R01",
-      "infections": 52,
+      "infections": 64,
       "recoveries": 19,
       "deaths": 0,
       "records": [
@@ -21126,6 +21552,12 @@
           13,
           0,
           0
+        ],
+        [
+          1592038800000,
+          12,
+          0,
+          0
         ]
       ]
     },
@@ -21133,7 +21565,7 @@
       "name_ar": "خيبر",
       "name_eng": "Khaybar",
       "code": "C699G30R03",
-      "infections": 6,
+      "infections": 7,
       "recoveries": 4,
       "deaths": 0,
       "records": [
@@ -21190,6 +21622,12 @@
           0,
           1,
           0
+        ],
+        [
+          1592038800000,
+          1,
+          0,
+          0
         ]
       ]
     },
@@ -21197,8 +21635,8 @@
       "name_ar": "ليلى",
       "name_eng": "Laylá",
       "code": "C729G10R01",
-      "infections": 39,
-      "recoveries": 16,
+      "infections": 41,
+      "recoveries": 17,
       "deaths": 0,
       "records": [
         [
@@ -21356,6 +21794,12 @@
           2,
           1,
           0
+        ],
+        [
+          1592038800000,
+          2,
+          1,
+          0
         ]
       ]
     },
@@ -21363,8 +21807,8 @@
       "name_ar": "المضة",
       "name_eng": "Al Maddah",
       "code": "C451G61R06",
-      "infections": 43,
-      "recoveries": 21,
+      "infections": 46,
+      "recoveries": 25,
       "deaths": 2,
       "records": [
         [
@@ -21444,6 +21888,12 @@
           1,
           0,
           2
+        ],
+        [
+          1592038800000,
+          3,
+          4,
+          0
         ]
       ]
     },
@@ -21451,7 +21901,7 @@
       "name_ar": "قيا",
       "name_eng": "Qiya",
       "code": "C608G20R02",
-      "infections": 17,
+      "infections": 20,
       "recoveries": 3,
       "deaths": 0,
       "records": [
@@ -21508,6 +21958,12 @@
           2,
           0,
           0
+        ],
+        [
+          1592038800000,
+          3,
+          0,
+          0
         ]
       ]
     },
@@ -21515,7 +21971,7 @@
       "name_ar": "الكامل",
       "name_eng": "Al Kamil",
       "code": "C611G20R02",
-      "infections": 17,
+      "infections": 19,
       "recoveries": 5,
       "deaths": 0,
       "records": [
@@ -21582,6 +22038,12 @@
         [
           1591952400000,
           1,
+          0,
+          0
+        ],
+        [
+          1592038800000,
+          2,
           0,
           0
         ]
@@ -22065,8 +22527,8 @@
       "name_ar": "أحد رفيدة",
       "name_eng": "Ahad Rifaydah",
       "code": "C453G60R06",
-      "infections": 122,
-      "recoveries": 25,
+      "infections": 126,
+      "recoveries": 31,
       "deaths": 0,
       "records": [
         [
@@ -22206,6 +22668,12 @@
           5,
           2,
           0
+        ],
+        [
+          1592038800000,
+          4,
+          6,
+          0
         ]
       ]
     },
@@ -22213,8 +22681,8 @@
       "name_ar": "الدوادمي",
       "name_eng": "Ad Duwadimi",
       "code": "C576G10R01",
-      "infections": 48,
-      "recoveries": 12,
+      "infections": 54,
+      "recoveries": 13,
       "deaths": 0,
       "records": [
         [
@@ -22366,6 +22834,12 @@
           1,
           0,
           0
+        ],
+        [
+          1592038800000,
+          6,
+          1,
+          0
         ]
       ]
     },
@@ -22373,7 +22847,7 @@
       "name_ar": "ثادق",
       "name_eng": "Thadiq",
       "code": "C691G11R01",
-      "infections": 47,
+      "infections": 51,
       "recoveries": 25,
       "deaths": 0,
       "records": [
@@ -22526,6 +23000,12 @@
           3,
           2,
           0
+        ],
+        [
+          1592038800000,
+          4,
+          0,
+          0
         ]
       ]
     },
@@ -22533,7 +23013,7 @@
       "name_ar": "تثليث",
       "name_eng": "Tathlith",
       "code": "C706G60R06",
-      "infections": 10,
+      "infections": 12,
       "recoveries": 5,
       "deaths": 0,
       "records": [
@@ -22594,6 +23074,12 @@
         [
           1591952400000,
           1,
+          0,
+          0
+        ],
+        [
+          1592038800000,
+          2,
           0,
           0
         ]
@@ -22721,7 +23207,7 @@
       "name_ar": "سراة عبيدة",
       "name_eng": "Sarat ʻAbidah",
       "code": "C581G60R06",
-      "infections": 10,
+      "infections": 16,
       "recoveries": 2,
       "deaths": 0,
       "records": [
@@ -22778,6 +23264,12 @@
           1,
           1,
           0
+        ],
+        [
+          1592038800000,
+          6,
+          0,
+          0
         ]
       ]
     },
@@ -22785,7 +23277,7 @@
       "name_ar": "مليجة",
       "name_eng": "Mulayjah",
       "code": "C586G50R05",
-      "infections": 17,
+      "infections": 18,
       "recoveries": 4,
       "deaths": 0,
       "records": [
@@ -22830,6 +23322,12 @@
           9,
           0,
           0
+        ],
+        [
+          1592038800000,
+          1,
+          0,
+          0
         ]
       ]
     },
@@ -22838,7 +23336,7 @@
       "name_eng": "Ash Shamli",
       "code": "C641G80R08",
       "infections": 3,
-      "recoveries": 1,
+      "recoveries": 2,
       "deaths": 0,
       "records": [
         [
@@ -22864,6 +23362,12 @@
           1,
           0,
           0
+        ],
+        [
+          1592038800000,
+          0,
+          1,
+          0
         ]
       ]
     },
@@ -22871,7 +23375,7 @@
       "name_ar": "الدلم",
       "name_eng": "Ad Dilam",
       "code": "C572G12R01",
-      "infections": 43,
+      "infections": 54,
       "recoveries": 21,
       "deaths": 0,
       "records": [
@@ -23030,6 +23534,12 @@
           2,
           0,
           0
+        ],
+        [
+          1592038800000,
+          11,
+          0,
+          0
         ]
       ]
     },
@@ -23037,8 +23547,8 @@
       "name_ar": "القويعية",
       "name_eng": "Al Quwayʻiyyah",
       "code": "C731G10R01",
-      "infections": 58,
-      "recoveries": 24,
+      "infections": 63,
+      "recoveries": 28,
       "deaths": 0,
       "records": [
         [
@@ -23172,6 +23682,12 @@
           0,
           2,
           0
+        ],
+        [
+          1592038800000,
+          5,
+          4,
+          0
         ]
       ]
     },
@@ -23180,7 +23696,7 @@
       "name_eng": "Al Mud͟haylif",
       "code": "C744G20R02",
       "infections": 31,
-      "recoveries": 26,
+      "recoveries": 27,
       "deaths": 0,
       "records": [
         [
@@ -23313,6 +23829,12 @@
           1591866000000,
           1,
           0,
+          0
+        ],
+        [
+          1592038800000,
+          0,
+          1,
           0
         ]
       ]
@@ -23551,8 +24073,8 @@
       "name_ar": "العلا",
       "name_eng": "Al ʻUla",
       "code": "C718G30R03",
-      "infections": 7,
-      "recoveries": 3,
+      "infections": 8,
+      "recoveries": 4,
       "deaths": 0,
       "records": [
         [
@@ -23600,6 +24122,12 @@
         [
           1591779600000,
           0,
+          1,
+          0
+        ],
+        [
+          1592038800000,
+          1,
           1,
           0
         ]
@@ -23745,8 +24273,8 @@
       "name_ar": "السحن",
       "name_eng": "Al Sehen",
       "code": "O9316G21R02",
-      "infections": 77,
-      "recoveries": 46,
+      "infections": 79,
+      "recoveries": 48,
       "deaths": 0,
       "records": [
         [
@@ -23886,6 +24414,12 @@
           0,
           3,
           0
+        ],
+        [
+          1592038800000,
+          2,
+          2,
+          0
         ]
       ]
     },
@@ -23893,7 +24427,7 @@
       "name_ar": "نمرة",
       "name_eng": "Numarah",
       "code": "C599G21R02",
-      "infections": 21,
+      "infections": 25,
       "recoveries": 19,
       "deaths": 0,
       "records": [
@@ -23985,6 +24519,12 @@
           1591779600000,
           1,
           2,
+          0
+        ],
+        [
+          1592038800000,
+          4,
+          0,
           0
         ]
       ]
@@ -24093,9 +24633,9 @@
       "name_ar": "حريملاء",
       "name_eng": "Huraymilaʼ",
       "code": "C692G11R01",
-      "infections": 62,
-      "recoveries": 18,
-      "deaths": 0,
+      "infections": 96,
+      "recoveries": 23,
+      "deaths": 1,
       "records": [
         [
           1589187600000,
@@ -24222,6 +24762,12 @@
           4,
           3,
           0
+        ],
+        [
+          1592038800000,
+          34,
+          5,
+          1
         ]
       ]
     },
@@ -24229,8 +24775,8 @@
       "name_ar": "شقراء",
       "name_eng": "Shaqraʼ",
       "code": "C734G10R01",
-      "infections": 48,
-      "recoveries": 26,
+      "infections": 55,
+      "recoveries": 27,
       "deaths": 0,
       "records": [
         [
@@ -24334,6 +24880,12 @@
           1,
           2,
           0
+        ],
+        [
+          1592038800000,
+          7,
+          1,
+          0
         ]
       ]
     },
@@ -24341,8 +24893,8 @@
       "name_ar": "الرين",
       "name_eng": "Ar Rayn",
       "code": "C163G12R01",
-      "infections": 36,
-      "recoveries": 19,
+      "infections": 37,
+      "recoveries": 20,
       "deaths": 0,
       "records": [
         [
@@ -24476,6 +25028,12 @@
           2,
           0,
           0
+        ],
+        [
+          1592038800000,
+          1,
+          1,
+          0
         ]
       ]
     },
@@ -24483,8 +25041,8 @@
       "name_ar": "الرويضة",
       "name_eng": "Ar Ruwaydah",
       "code": "C399G10R01",
-      "infections": 46,
-      "recoveries": 12,
+      "infections": 54,
+      "recoveries": 18,
       "deaths": 0,
       "records": [
         [
@@ -24624,6 +25182,12 @@
           0,
           1,
           0
+        ],
+        [
+          1592038800000,
+          8,
+          6,
+          0
         ]
       ]
     },
@@ -24631,8 +25195,8 @@
       "name_ar": "السليل",
       "name_eng": "As Sulayyil",
       "code": "C728G11R01",
-      "infections": 68,
-      "recoveries": 9,
+      "infections": 72,
+      "recoveries": 11,
       "deaths": 2,
       "records": [
         [
@@ -24784,6 +25348,12 @@
           1,
           0,
           1
+        ],
+        [
+          1592038800000,
+          4,
+          2,
+          0
         ]
       ]
     },
@@ -24820,7 +25390,7 @@
       "name_eng": "Taymaʼ",
       "code": "C719G70R07",
       "infections": 2,
-      "recoveries": 1,
+      "recoveries": 2,
       "deaths": 0,
       "records": [
         [
@@ -24834,6 +25404,12 @@
           1,
           1,
           0
+        ],
+        [
+          1592038800000,
+          0,
+          1,
+          0
         ]
       ]
     },
@@ -24842,7 +25418,7 @@
       "name_eng": "Marat",
       "code": "C741G12R01",
       "infections": 12,
-      "recoveries": 3,
+      "recoveries": 4,
       "deaths": 0,
       "records": [
         [
@@ -24910,6 +25486,12 @@
           2,
           0,
           0
+        ],
+        [
+          1592038800000,
+          0,
+          1,
+          0
         ]
       ]
     },
@@ -24969,8 +25551,8 @@
       "name_ar": "القوز",
       "name_eng": "Al Gouz",
       "code": "C677G20R02",
-      "infections": 40,
-      "recoveries": 23,
+      "infections": 43,
+      "recoveries": 24,
       "deaths": 0,
       "records": [
         [
@@ -25098,6 +25680,12 @@
           1,
           1,
           0
+        ],
+        [
+          1592038800000,
+          3,
+          1,
+          0
         ]
       ]
     },
@@ -25106,7 +25694,7 @@
       "name_eng": "Haql",
       "code": "C721G70R07",
       "infections": 3,
-      "recoveries": 1,
+      "recoveries": 3,
       "deaths": 0,
       "records": [
         [
@@ -25132,6 +25720,12 @@
           0,
           1,
           0
+        ],
+        [
+          1592038800000,
+          0,
+          2,
+          0
         ]
       ]
     },
@@ -25139,8 +25733,8 @@
       "name_ar": "رماح",
       "name_eng": "Rumah",
       "code": "C733G11R01",
-      "infections": 36,
-      "recoveries": 7,
+      "infections": 43,
+      "recoveries": 9,
       "deaths": 0,
       "records": [
         [
@@ -25214,6 +25808,12 @@
           6,
           0,
           0
+        ],
+        [
+          1592038800000,
+          7,
+          2,
+          0
         ]
       ]
     },
@@ -25256,13 +25856,19 @@
       "name_eng": "Shuwaq",
       "code": "C487G70R07",
       "infections": 1,
-      "recoveries": 0,
+      "recoveries": 1,
       "deaths": 0,
       "records": [
         [
           1589619600000,
           1,
           0,
+          0
+        ],
+        [
+          1592038800000,
+          0,
+          1,
           0
         ]
       ]
@@ -25272,7 +25878,7 @@
       "name_eng": "Tumayr",
       "code": "C735G10R01",
       "infections": 18,
-      "recoveries": 3,
+      "recoveries": 4,
       "deaths": 0,
       "records": [
         [
@@ -25352,6 +25958,12 @@
           1,
           0,
           0
+        ],
+        [
+          1592038800000,
+          0,
+          1,
+          0
         ]
       ]
     },
@@ -25359,7 +25971,7 @@
       "name_ar": "رجال المع",
       "name_eng": "Rijal Al Ma",
       "code": "G1659G60R06",
-      "infections": 11,
+      "infections": 18,
       "recoveries": 10,
       "deaths": 0,
       "records": [
@@ -25416,6 +26028,12 @@
           0,
           1,
           0
+        ],
+        [
+          1592038800000,
+          7,
+          0,
+          0
         ]
       ]
     },
@@ -25445,7 +26063,7 @@
       "name_ar": "رفائع الجمش",
       "name_eng": "Rafa'i' Al Jamsh",
       "code": "C121G10R01",
-      "infections": 51,
+      "infections": 52,
       "recoveries": 1,
       "deaths": 0,
       "records": [
@@ -25502,6 +26120,12 @@
           5,
           0,
           0
+        ],
+        [
+          1592038800000,
+          1,
+          0,
+          0
         ]
       ]
     },
@@ -25549,8 +26173,8 @@
       "name_ar": "العيون",
       "name_eng": "Al ʻUyun",
       "code": "C683G50R05",
-      "infections": 125,
-      "recoveries": 16,
+      "infections": 142,
+      "recoveries": 18,
       "deaths": 0,
       "records": [
         [
@@ -25641,6 +26265,12 @@
           1591952400000,
           12,
           8,
+          0
+        ],
+        [
+          1592038800000,
+          17,
+          2,
           0
         ]
       ]
@@ -25789,8 +26419,8 @@
       "name_ar": "ظهران الجنوب",
       "name_eng": "D͟hahran al Janub",
       "code": "C702G60R06",
-      "infections": 21,
-      "recoveries": 3,
+      "infections": 27,
+      "recoveries": 5,
       "deaths": 0,
       "records": [
         [
@@ -25858,6 +26488,12 @@
           2,
           0,
           0
+        ],
+        [
+          1592038800000,
+          6,
+          2,
+          0
         ]
       ]
     },
@@ -25865,8 +26501,8 @@
       "name_ar": "البشائر",
       "name_eng": "Al Bashayer",
       "code": "C10798G61R06",
-      "infections": 29,
-      "recoveries": 11,
+      "infections": 30,
+      "recoveries": 17,
       "deaths": 0,
       "records": [
         [
@@ -25958,6 +26594,12 @@
           0,
           4,
           0
+        ],
+        [
+          1592038800000,
+          1,
+          6,
+          0
         ]
       ]
     },
@@ -25965,8 +26607,8 @@
       "name_ar": "النماص",
       "name_eng": "An Namas",
       "code": "C707G60R06",
-      "infections": 54,
-      "recoveries": 8,
+      "infections": 55,
+      "recoveries": 11,
       "deaths": 0,
       "records": [
         [
@@ -26081,6 +26723,12 @@
           1591952400000,
           4,
           1,
+          0
+        ],
+        [
+          1592038800000,
+          1,
+          3,
           0
         ]
       ]
@@ -26169,8 +26817,8 @@
       "name_ar": "بللسمر",
       "name_eng": "Billasmar",
       "code": "O10214G60R06",
-      "infections": 17,
-      "recoveries": 6,
+      "infections": 18,
+      "recoveries": 7,
       "deaths": 0,
       "records": [
         [
@@ -26238,6 +26886,12 @@
           2,
           0,
           0
+        ],
+        [
+          1592038800000,
+          1,
+          1,
+          0
         ]
       ]
     },
@@ -26279,7 +26933,7 @@
       "name_ar": "الحريق",
       "name_eng": "Al Hariq",
       "code": "C694G11R01",
-      "infections": 15,
+      "infections": 16,
       "recoveries": 8,
       "deaths": 0,
       "records": [
@@ -26339,6 +26993,12 @@
         ],
         [
           1591952400000,
+          1,
+          0,
+          0
+        ],
+        [
+          1592038800000,
           1,
           0,
           0
@@ -26411,12 +27071,18 @@
       "name_ar": "الفرشة",
       "name_eng": "Al Farshah",
       "code": "O10207G60R06",
-      "infections": 1,
+      "infections": 2,
       "recoveries": 0,
       "deaths": 0,
       "records": [
         [
           1590310800000,
+          1,
+          0,
+          0
+        ],
+        [
+          1592038800000,
           1,
           0,
           0
@@ -26428,7 +27094,7 @@
       "name_eng": "Al Mahani",
       "code": "C559G20R02",
       "infections": 11,
-      "recoveries": 3,
+      "recoveries": 4,
       "deaths": 0,
       "records": [
         [
@@ -26475,6 +27141,12 @@
         ],
         [
           1591952400000,
+          0,
+          1,
+          0
+        ],
+        [
+          1592038800000,
           0,
           1,
           0
@@ -26525,7 +27197,7 @@
       "name_ar": "فيفا",
       "name_eng": "Fayfa",
       "code": "C770G10R10",
-      "infections": 3,
+      "infections": 4,
       "recoveries": 2,
       "deaths": 0,
       "records": [
@@ -26552,6 +27224,12 @@
           1,
           0,
           0
+        ],
+        [
+          1592038800000,
+          1,
+          0,
+          0
         ]
       ]
     },
@@ -26559,7 +27237,7 @@
       "name_ar": "رنية",
       "name_eng": "Ranyah",
       "code": "C605G21R02",
-      "infections": 18,
+      "infections": 28,
       "recoveries": 4,
       "deaths": 0,
       "records": [
@@ -26621,6 +27299,12 @@
           1591952400000,
           1,
           1,
+          0
+        ],
+        [
+          1592038800000,
+          10,
+          0,
           0
         ]
       ]
@@ -26703,7 +27387,7 @@
       "name_ar": "الخاصرة",
       "name_eng": "Al Khasirah",
       "code": "C497G10R01",
-      "infections": 16,
+      "infections": 17,
       "recoveries": 0,
       "deaths": 0,
       "records": [
@@ -26742,6 +27426,12 @@
           2,
           0,
           0
+        ],
+        [
+          1592038800000,
+          1,
+          0,
+          0
         ]
       ]
     },
@@ -26749,7 +27439,7 @@
       "name_ar": "عفيف",
       "name_eng": "ʻAfif",
       "code": "C525G11R01",
-      "infections": 52,
+      "infections": 58,
       "recoveries": 2,
       "deaths": 0,
       "records": [
@@ -26818,6 +27508,12 @@
           10,
           0,
           0
+        ],
+        [
+          1592038800000,
+          6,
+          0,
+          0
         ]
       ]
     },
@@ -26825,8 +27521,8 @@
       "name_ar": "وادي بن هشبل",
       "name_eng": "Wadi Ibn Hashbal",
       "code": "C554G60R06",
-      "infections": 32,
-      "recoveries": 2,
+      "infections": 33,
+      "recoveries": 3,
       "deaths": 0,
       "records": [
         [
@@ -26876,6 +27572,12 @@
           2,
           0,
           0
+        ],
+        [
+          1592038800000,
+          1,
+          1,
+          0
         ]
       ]
     },
@@ -26884,7 +27586,7 @@
       "name_eng": "Al ʻUwayqilah",
       "code": "C698G90R09",
       "infections": 9,
-      "recoveries": 1,
+      "recoveries": 2,
       "deaths": 0,
       "records": [
         [
@@ -26928,6 +27630,12 @@
           2,
           0,
           0
+        ],
+        [
+          1592038800000,
+          0,
+          1,
+          0
         ]
       ]
     },
@@ -26935,7 +27643,7 @@
       "name_ar": "تنومة",
       "name_eng": "Tanumah",
       "code": "C167G61R06",
-      "infections": 15,
+      "infections": 16,
       "recoveries": 1,
       "deaths": 0,
       "records": [
@@ -26980,6 +27688,12 @@
           3,
           0,
           0
+        ],
+        [
+          1592038800000,
+          1,
+          0,
+          0
         ]
       ]
     },
@@ -27015,8 +27729,8 @@
       "name_ar": "البجادية",
       "name_eng": "Al Bijadiyyah",
       "code": "C652G10R01",
-      "infections": 13,
-      "recoveries": 1,
+      "infections": 15,
+      "recoveries": 2,
       "deaths": 0,
       "records": [
         [
@@ -27060,6 +27774,12 @@
           5,
           0,
           0
+        ],
+        [
+          1592038800000,
+          2,
+          1,
+          0
         ]
       ]
     },
@@ -27067,7 +27787,7 @@
       "name_ar": "يدمة",
       "name_eng": "Yadamah",
       "code": "C664G11R11",
-      "infections": 11,
+      "infections": 12,
       "recoveries": 1,
       "deaths": 0,
       "records": [
@@ -27112,6 +27832,12 @@
           0,
           1,
           0
+        ],
+        [
+          1592038800000,
+          1,
+          0,
+          0
         ]
       ]
     },
@@ -27147,8 +27873,8 @@
       "name_ar": "الحرجة",
       "name_eng": "Al Harajah",
       "code": "C169G61R06",
-      "infections": 11,
-      "recoveries": 0,
+      "infections": 13,
+      "recoveries": 1,
       "deaths": 0,
       "records": [
         [
@@ -27180,6 +27906,12 @@
           2,
           0,
           0
+        ],
+        [
+          1592038800000,
+          2,
+          1,
+          0
         ]
       ]
     },
@@ -27203,7 +27935,7 @@
       "name_ar": "حبونا",
       "name_eng": "Hubuna",
       "code": "C537G11R11",
-      "infections": 4,
+      "infections": 5,
       "recoveries": 2,
       "deaths": 0,
       "records": [
@@ -27242,6 +27974,12 @@
           0,
           1,
           0
+        ],
+        [
+          1592038800000,
+          1,
+          0,
+          0
         ]
       ]
     },
@@ -27249,7 +27987,7 @@
       "name_ar": "تبالة",
       "name_eng": "Tabalah",
       "code": "C604G60R06",
-      "infections": 17,
+      "infections": 18,
       "recoveries": 9,
       "deaths": 0,
       "records": [
@@ -27299,6 +28037,12 @@
           1591952400000,
           0,
           3,
+          0
+        ],
+        [
+          1592038800000,
+          1,
+          0,
           0
         ]
       ]
@@ -27391,12 +28135,18 @@
       "name_ar": "القحمة",
       "name_eng": "Al Qahmah",
       "code": "C593G60R06",
-      "infections": 1,
+      "infections": 2,
       "recoveries": 0,
       "deaths": 0,
       "records": [
         [
           1591520400000,
+          1,
+          0,
+          0
+        ],
+        [
+          1592038800000,
           1,
           0,
           0
@@ -27451,7 +28201,7 @@
       "name_ar": "فرسان",
       "name_eng": "Farasan",
       "code": "C172G10R10",
-      "infections": 4,
+      "infections": 8,
       "recoveries": 0,
       "deaths": 0,
       "records": [
@@ -27464,6 +28214,12 @@
         [
           1591952400000,
           2,
+          0,
+          0
+        ],
+        [
+          1592038800000,
+          4,
           0,
           0
         ]
@@ -27511,13 +28267,19 @@
       "name_ar": "بدر الجنوب",
       "name_eng": "Badr al Janub",
       "code": "C54G11R11",
-      "infections": 1,
+      "infections": 4,
       "recoveries": 0,
       "deaths": 0,
       "records": [
         [
           1591779600000,
           1,
+          0,
+          0
+        ],
+        [
+          1592038800000,
+          3,
           0,
           0
         ]
@@ -27600,6 +28362,22 @@
         [
           1591866000000,
           2,
+          0,
+          0
+        ]
+      ]
+    },
+    "Al Badʻ": {
+      "name_ar": "البدع",
+      "name_eng": "Al Badʻ",
+      "code": "C626G70R07",
+      "infections": 1,
+      "recoveries": 0,
+      "deaths": 0,
+      "records": [
+        [
+          1592038800000,
+          1,
           0,
           0
         ]
