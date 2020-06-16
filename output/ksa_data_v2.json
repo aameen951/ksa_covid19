@@ -2,7 +2,7 @@
   "data_source": "https://covid19.moh.gov.sa/",
   "last_update": 1592211600000,
   "infections": 136315,
-  "recoveries": 89543,
+  "recoveries": 89540,
   "deaths": 1052,
   "cities": {
     "Qatif": {
@@ -21318,7 +21318,7 @@
       "name_eng": "Ad Darb",
       "code": "C459G10R10",
       "infections": 40,
-      "recoveries": 17,
+      "recoveries": 14,
       "deaths": 0,
       "records": [
         [
@@ -21408,7 +21408,7 @@
         [
           1592211600000,
           15,
-          10,
+          7,
           0
         ]
       ]
