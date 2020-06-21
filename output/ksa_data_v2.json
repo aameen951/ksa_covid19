@@ -1,8 +1,8 @@
 {
   "data_source": "https://covid19.moh.gov.sa/",
   "last_update": 1592643600000,
-  "infections": 157605,
-  "recoveries": 101129,
+  "infections": 157612,
+  "recoveries": 101130,
   "deaths": 1267,
   "cities": {
     "Qatif": {
@@ -32401,8 +32401,8 @@
       "name_ar": "عفيف",
       "name_eng": "ʻAfif",
       "code": "C525G11R01",
-      "infections": 93,
-      "recoveries": 18,
+      "infections": 100,
+      "recoveries": 19,
       "deaths": 0,
       "records": [
         [
@@ -32505,6 +32505,12 @@
           1592557200000,
           0,
           2,
+          0
+        ],
+        [
+          1592643600000,
+          7,
+          1,
           0
         ]
       ]
