@@ -1,8 +1,8 @@
 {
   "data_source": "https://covid19.moh.gov.sa/",
-  "last_update": 1593421200000,
+  "last_update": 1593507600000,
   "infections": 190823,
-  "recoveries": 130766,
+  "recoveries": 130768,
   "deaths": 1649,
   "cities": {
     "Qatif": {
@@ -29912,7 +29912,7 @@
       "name_eng": "Al Badaʼiʻ",
       "code": "C676G40R04",
       "infections": 93,
-      "recoveries": 25,
+      "recoveries": 27,
       "deaths": 0,
       "records": [
         [
@@ -30099,6 +30099,12 @@
           1593421200000,
           4,
           0,
+          0
+        ],
+        [
+          1593507600000,
+          0,
+          2,
           0
         ]
       ]
