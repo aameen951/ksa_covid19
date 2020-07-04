@@ -1,8 +1,8 @@
 {
   "data_source": "https://covid19.moh.gov.sa/",
-  "last_update": 1593680400000,
+  "last_update": 1593766800000,
   "infections": 201801,
-  "recoveries": 140614,
+  "recoveries": 140620,
   "deaths": 1802,
   "cities": {
     "Qatif": {
@@ -27894,7 +27894,7 @@
       "name_eng": "Umlujj",
       "code": "C716G70R07",
       "infections": 75,
-      "recoveries": 70,
+      "recoveries": 71,
       "deaths": 0,
       "records": [
         [
@@ -28087,6 +28087,12 @@
           1593680400000,
           1,
           3,
+          0
+        ],
+        [
+          1593766800000,
+          0,
+          1,
           0
         ]
       ]
@@ -37086,7 +37092,7 @@
       "name_eng": "Wuthaylan",
       "code": "O8102G10R01",
       "infections": 62,
-      "recoveries": 21,
+      "recoveries": 24,
       "deaths": 0,
       "records": [
         [
@@ -37224,6 +37230,12 @@
         [
           1593680400000,
           13,
+          3,
+          0
+        ],
+        [
+          1593766800000,
+          0,
           3,
           0
         ]
@@ -44056,7 +44068,7 @@
       "name_eng": "Al Badʻ",
       "code": "C626G70R07",
       "infections": 20,
-      "recoveries": 13,
+      "recoveries": 15,
       "deaths": 0,
       "records": [
         [
@@ -44128,6 +44140,12 @@
         [
           1593680400000,
           2,
+          2,
+          0
+        ],
+        [
+          1593766800000,
+          0,
           2,
           0
         ]
