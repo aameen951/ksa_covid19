@@ -2,8 +2,8 @@
   "data_source": "https://covid19.moh.gov.sa/",
   "last_update": 1594026000000,
   "infections": 217108,
-  "recoveries": 154361,
-  "deaths": 2495,
+  "recoveries": 154839,
+  "deaths": 2017,
   "cities": {
     "Qatif": {
       "name_ar": "القطيف",
@@ -13216,8 +13216,8 @@
       "name_eng": "Ad Dammam",
       "code": "C527G50R05",
       "infections": 13290,
-      "recoveries": 7611,
-      "deaths": 548,
+      "recoveries": 8089,
+      "deaths": 70,
       "records": [
         [
           1587427200000,
@@ -13678,8 +13678,8 @@
         [
           1594026000000,
           219,
-          0,
-          478
+          478,
+          0
         ]
       ]
     },
