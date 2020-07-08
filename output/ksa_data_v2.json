@@ -38052,7 +38052,7 @@
       "name_eng": "Al Hadithah Border Station",
       "code": "C754G13R13",
       "infections": 44,
-      "recoveries": 38,
+      "recoveries": 40,
       "deaths": 0,
       "records": [
         [
@@ -38221,6 +38221,12 @@
           1593939600000,
           2,
           0,
+          0
+        ],
+        [
+          1594112400000,
+          0,
+          2,
           0
         ]
       ]
@@ -49233,22 +49239,6 @@
           1593939600000,
           1,
           0,
-          0
-        ]
-      ]
-    },
-    "Al Hadithah": {
-      "name_ar": "الحديثة",
-      "name_eng": "Al Hadithah",
-      "code": "C387G13R13",
-      "infections": 0,
-      "recoveries": 2,
-      "deaths": 0,
-      "records": [
-        [
-          1594112400000,
-          0,
-          2,
           0
         ]
       ]
