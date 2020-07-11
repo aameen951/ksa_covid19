@@ -5691,8 +5691,8 @@
       "name_ar": "المبرز",
       "name_eng": "Al Mubarraz",
       "code": "O9812G50R05",
-      "infections": 3914,
-      "recoveries": 1969,
+      "infections": 4110,
+      "recoveries": 2123,
       "deaths": 13,
       "records": [
         [
@@ -5975,6 +5975,12 @@
           1594198800000,
           152,
           46,
+          0
+        ],
+        [
+          1594285200000,
+          196,
+          154,
           0
         ]
       ]
@@ -51089,22 +51095,6 @@
           1594285200000,
           1,
           0,
-          0
-        ]
-      ]
-    },
-    "Mubaraz": {
-      "name_ar": "مبرز",
-      "name_eng": "Mubaraz",
-      "code": "O8616G80R08",
-      "infections": 196,
-      "recoveries": 154,
-      "deaths": 0,
-      "records": [
-        [
-          1594285200000,
-          196,
-          154,
           0
         ]
       ]
