@@ -15043,8 +15043,8 @@
       "name_ar": "الباحة",
       "name_eng": "AL BAHAH",
       "code": "C519G12R12",
-      "infections": 299,
-      "recoveries": 255,
+      "infections": 301,
+      "recoveries": 257,
       "deaths": 8,
       "records": [
         [
@@ -15466,6 +15466,12 @@
           3,
           10,
           1
+        ],
+        [
+          1595322000000,
+          2,
+          2,
+          0
         ]
       ]
     },
@@ -23209,8 +23215,8 @@
       "name_ar": "أبها",
       "name_eng": "ABHA",
       "code": "C520G60R06",
-      "infections": 3580,
-      "recoveries": 2834,
+      "infections": 3578,
+      "recoveries": 2832,
       "deaths": 9,
       "records": [
         [
@@ -23667,12 +23673,6 @@
           1595322000000,
           53,
           159,
-          0
-        ],
-        [
-          1595322000000,
-          2,
-          2,
           0
         ]
       ]
@@ -46634,7 +46634,7 @@
       "name_eng": "Al Hadithah Border Station",
       "code": "C754G13R13",
       "infections": 49,
-      "recoveries": 42,
+      "recoveries": 43,
       "deaths": 0,
       "records": [
         [
@@ -46837,6 +46837,12 @@
         ],
         [
           1594803600000,
+          0,
+          1,
+          0
+        ],
+        [
+          1595149200000,
           0,
           1,
           0
@@ -62669,22 +62675,6 @@
           1594976400000,
           1,
           0,
-          0
-        ]
-      ]
-    },
-    "Al Hadithah": {
-      "name_ar": "الحديثة",
-      "name_eng": "Al Hadithah",
-      "code": "C387G13R13",
-      "infections": 0,
-      "recoveries": 1,
-      "deaths": 0,
-      "records": [
-        [
-          1595149200000,
-          0,
-          1,
           0
         ]
       ]
