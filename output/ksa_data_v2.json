@@ -1,8 +1,8 @@
 {
   "data_source": "https://covid19.moh.gov.sa/",
   "last_update": 1595581200000,
-  "infections": 264933,
-  "recoveries": 217780,
+  "infections": 264973,
+  "recoveries": 217782,
   "deaths": 2703,
   "cities": {
     "Qatif": {
@@ -23935,7 +23935,7 @@
       "name_ar": "أبها",
       "name_eng": "ABHA",
       "code": "C520G60R06",
-      "infections": 3673,
+      "infections": 3703,
       "recoveries": 2963,
       "deaths": 9,
       "records": [
@@ -24409,7 +24409,7 @@
         ],
         [
           1595581200000,
-          3,
+          33,
           40,
           0
         ]
@@ -47874,7 +47874,7 @@
       "name_eng": "Qilwah",
       "code": "C690G12R12",
       "infections": 135,
-      "recoveries": 73,
+      "recoveries": 75,
       "deaths": 0,
       "records": [
         [
@@ -48180,7 +48180,7 @@
         [
           1595581200000,
           1,
-          0,
+          2,
           0
         ]
       ]
@@ -62923,7 +62923,7 @@
       "name_ar": "تربة",
       "name_eng": "Turuba",
       "code": "C712G21R02",
-      "infections": 229,
+      "infections": 239,
       "recoveries": 118,
       "deaths": 0,
       "records": [
@@ -63151,7 +63151,7 @@
         ],
         [
           1595581200000,
-          1,
+          11,
           14,
           0
         ]
