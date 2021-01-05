@@ -51,16 +51,16 @@ async function show_data()
   console.log(`Data Source: \x1b[34m${data.data_source}\x1b[0m`);
   console.log(`Last Update: \x1b[32m${new Date(data.last_update).toLocaleString()}\x1b[0m`);
 }
-async function show_day()
+async function collate_last_12hrs_data()
 {
   const data = await read_file('ksa_data_v2');
-  const last_update = new Date(data.last_update);
   const from = new Date(data.last_update);
   from.setHours(from.getHours()-12);
   
   const cities = new Map();
   const total = {
     name: "TOTAL",
+    name_ar: "المجموع",
     infections: 0,
     recoveries: 0,
     deaths: 0,
@@ -73,6 +73,7 @@ async function show_day()
         {
           cities.set(k, {
             name: k,
+            name_ar: v.name_ar,
             infections: 0,
             recoveries: 0,
             deaths: 0,
@@ -90,8 +91,100 @@ async function show_day()
   });
   const all_entries = [
     total,
-    ...Array.from(cities.values()).sort((b, a) => a.infections - b.infections),
+    ...Array.from(cities.values()).sort((b, a) => a.recoveries - b.recoveries),
   ];
+  return all_entries;
+}
+async function last_12hrs_data_to_html()
+{
+  let all_entries = await collate_last_12hrs_data();
+  // all_entries = all_entries.filter(x => x.infections > 9 || x.recoveries > 9);
+  const out = [];
+  out.push("<!DOCTYPE html>");
+  out.push("<html>");
+  out.push("<head>");
+  out.push("<style>");
+  out.push("*{margin: 0; padding: 0;}");
+  out.push("body{");
+  out.push("  direction: rtl;");
+  out.push("  background-color: hsl(0, 0%, 7%);");
+  out.push("  color: hsl(0, 0%, 80%);");
+  out.push("}");
+  out.push(".table-container {");
+  out.push("  display: flex;");
+  out.push("  flex-direction: row;");
+  out.push("  margin: 20px;");
+  out.push("}");
+  out.push(".table-container table{");
+  out.push("  margin-left: 20px;");
+  out.push("}");
+  out.push(".table-container table:last-child {");
+  out.push("  margin-left: 0;");
+  out.push("}");
+  out.push("table {");
+  out.push("  border-collapse: collapse;");
+  out.push("}");
+  out.push("table.recoveries td:nth-child(2), table.recoveries th {");
+  out.push("  color: green;");
+  out.push("}");
+  out.push("table.infections td:nth-child(2), table.infections th {");
+  out.push("  color: red;");
+  out.push("}");
+  out.push("table td, table th{");
+  out.push("  border: 2px solid hsl(0, 0%, 70%);");
+  out.push("  padding: 4px 16px;");
+  out.push("}");
+  out.push("table {");
+  out.push("  border-bottom: 2px solid hsl(0, 0%, 70%);");
+  out.push("}");
+  out.push("table tr:not(:nth-child(1)) td{");
+  out.push("  border-top: none;");
+  out.push("  border-bottom: none;");
+  out.push("}");
+  out.push("</style>");
+  out.push("</head>");
+  out.push("<body>");
+  out.push("<div class='table-container'>");{
+    out.push("<table class='recoveries'>");
+    out.push("<thead>");
+    out.push("<tr>");
+    out.push("<th colspan='2'>التعافي</th>");
+    out.push("</tr>");
+    out.push("</thead>");
+    out.push("<tbody>");
+    all_entries.filter(e => e.recoveries > 9).forEach(e => {
+      out.push("<tr>");
+      out.push(`<td>${e.name_ar}</td>`);
+      out.push(`<td>${e.recoveries}</td>`);
+      out.push("</tr>");
+    });
+    out.push("</tbody>");
+    out.push("</table>");
+    out.push("<table class='infections'>");
+    out.push("<thead>");
+    out.push("<tr>");
+    out.push("<th colspan='2'>الإصابات</th>");
+    out.push("</tr>");
+    out.push("</thead>");
+    out.push("<tbody>");
+    all_entries.filter(e => e.infections > 9).forEach(e => {
+      out.push("<tr>");
+      out.push(`<td>${e.name_ar}</td>`);
+      out.push(`<td>${e.infections}</td>`);
+      out.push("</tr>");
+    });
+    out.push("</tbody>");
+    out.push("</table>");
+  }out.push("</div>");
+
+  out.push("</body>");
+  out.push("</html>");
+
+  fs.writeFileSync(`./output/last_12hrs_covid19_ksa.html`, out.join("\n"), "utf8");
+}
+async function show_day()
+{
+  const all_entries = await collate_last_12hrs_data();
   ORG = "\x1b[33m";
   GRN = "\x1b[32m";
   RED = "\x1b[31m";
@@ -195,6 +288,9 @@ async function main(args){
     }break;
     case 'show-day':{
       await main(['fetch', '--show-day']);
+    }break;
+    case 'html':{
+      await last_12hrs_data_to_html();
     }break;
     case 'watch':{
       await new Promise(async (resolve, reject) => {
